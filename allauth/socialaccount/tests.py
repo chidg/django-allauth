@@ -584,6 +584,6 @@ class SocialAccountTests(TestCase):
             resp,
             'form',
             'email',
-            'An account already exists with this e-mail address.'
+            'An account already exists with this email address.'
             ' Please sign in to that account first, then connect'
             ' your Google account.')

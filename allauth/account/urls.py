@@ -14,7 +14,7 @@ urlpatterns = [
 
     url(r"^inactive/$", views.account_inactive, name="account_inactive"),
 
-    # E-mail
+    # Email
     url(r"^email/$", views.email, name="account_email"),
     url(r"^confirm-email/$", views.email_verification_sent,
         name="account_email_verification_sent"),

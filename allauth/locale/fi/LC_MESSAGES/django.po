@@ -29,7 +29,7 @@ msgstr ""
 "Liian monta virheellistä kirjautumisyritystä. Yritä myöhemmin uudelleen."
 
 #: account/adapter.py:54
-msgid "A user is already registered with this e-mail address."
+msgid "A user is already registered with this email address."
 msgstr "Tämä sähköpostiosoite on jo käytössä."
 
 #: account/adapter.py:291
@@ -58,7 +58,7 @@ msgid "This account is currently inactive."
 msgstr "Tämä tili on poistettu käytöstä."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
+msgid "The email address and/or password you specified are not correct."
 msgstr "Annettu sähköposti tai salasana ei ole oikein."
 
 #: account/forms.py:84
@@ -67,12 +67,12 @@ msgstr "Annettu käyttäjänimi tai salasana ei ole oikein."
 
 #: account/forms.py:93 account/forms.py:248 account/forms.py:406
 #: account/forms.py:475
-msgid "E-mail address"
+msgid "Email address"
 msgstr "Sähköpostiosoite"
 
 #: account/forms.py:95 account/forms.py:281 account/forms.py:401
 #: account/forms.py:470
-msgid "E-mail"
+msgid "Email"
 msgstr "Sähköposti"
 
 #: account/forms.py:100 account/forms.py:103 account/forms.py:240
@@ -81,7 +81,7 @@ msgid "Username"
 msgstr "Käyttäjänimi"
 
 #: account/forms.py:110
-msgid "Username or e-mail"
+msgid "Username or email"
 msgstr "Käyttäjänimi tai sähköposti"
 
 #: account/forms.py:113
@@ -91,18 +91,18 @@ msgstr "Käyttäjätunnus"
 
 #: account/forms.py:272
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
 msgstr "Sähköpostiosoite (valinnainen)"
 
 #: account/forms.py:276
 #, fuzzy
 #| msgid "email confirmation"
-msgid "E-mail address confirmation"
+msgid "Email address confirmation"
 msgstr "sähköpostivarmistus"
 
 #: account/forms.py:284
-msgid "E-mail (optional)"
+msgid "Email (optional)"
 msgstr "Sähköpostiosoite (valinnainen)"
 
 #: account/forms.py:325
@@ -116,11 +116,11 @@ msgid "Password (again)"
 msgstr "Salasana (uudestaan)"
 
 #: account/forms.py:412
-msgid "This e-mail address is already associated with this account."
+msgid "This email address is already associated with this account."
 msgstr "Sähköpostiosoite on jo liitetty tähän tilliin."
 
 #: account/forms.py:414
-msgid "This e-mail address is already associated with another account."
+msgid "This email address is already associated with another account."
 msgstr "Sähköpostiosoite on jo liitetty toiseen tiliin."
 
 #: account/forms.py:436
@@ -140,7 +140,7 @@ msgid "Please type your current password."
 msgstr "Ole hyvä ja anna nykyinen salasanasi."
 
 #: account/forms.py:484
-msgid "The e-mail address is not assigned to any user account"
+msgid "The email address is not assigned to any user account"
 msgstr "Sähköpostiosoite ei vastaa yhtäkään käyttäjätiliä."
 
 #: account/forms.py:548
@@ -152,7 +152,7 @@ msgid "user"
 msgstr "käyttäjä"
 
 #: account/models.py:27 account/models.py:81
-msgid "e-mail address"
+msgid "email address"
 msgstr "sähköpostiosoite"
 
 #: account/models.py:28
@@ -194,7 +194,7 @@ msgstr "sähköpostivarmistukset"
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
 "Sähköpostiosoite on jo liitetty olemassaolevaan tiliin. Kirjaudu ensin "
@@ -205,7 +205,7 @@ msgid "Your account has no password set up."
 msgstr "Tilillesi ei ole asetettu salasanaa."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
+msgid "Your account has no verified email address."
 msgstr "Tiliisi ei ole liitetty vahvistettua sähköpostiosoitetta."
 
 #: socialaccount/apps.py:7
@@ -343,11 +343,11 @@ msgid "Account"
 msgstr "Tili"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
+msgid "Email Addresses"
 msgstr "Sähköpostiosoitteet"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
+msgid "The following email addresses are associated with your account:"
 msgstr "Seuraavat sähköpostiosoitteet on liitetty tiliisi:"
 
 #: templates/account/email.html:24
@@ -380,22 +380,22 @@ msgstr "Varoitus:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
 "Et ole asettanut sähköpostiosoitetta. Tämä tulisi tehdä, jotta voit saada "
 "ilmoituksia, uusia salasanasi jne."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
+msgid "Add Email Address"
 msgstr "Lisää sähköpostiosoite"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
+msgid "Add Email"
 msgstr "Lisää sähköposti"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
+msgid "Do you really want to remove the selected email address?"
 msgstr "Haluatko varmasti poistaa valitun sähköpostiosoitteen?"
 
 #: templates/account/email/email_confirmation_message.txt:1
@@ -403,16 +403,16 @@ msgstr "Haluatko varmasti poistaa valitun sähköpostiosoitteen?"
 #| msgid ""
 #| "Hello from %(site_name)s!\n"
 #| "\n"
-#| "You're receiving this e-mail because user %(user_display)s at "
-#| "%(site_domain)s has given yours as an e-mail address to connect their "
+#| "You're receiving this email because user %(user_display)s at "
+#| "%(site_domain)s has given yours as an email address to connect their "
 #| "account.\n"
 #| "\n"
 #| "To confirm this is correct, go to %(activate_url)s\n"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s has given yours "
-"as an e-mail address to connect their account.\n"
+"You're receiving this email because user %(user_display)s has given yours "
+"as an email address to connect their account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
@@ -433,7 +433,7 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
+msgid "Please Confirm Your Email Address"
 msgstr "Vahvista sähköpostiosoitteesi"
 
 #: templates/account/email/password_reset_key_message.txt:1
@@ -441,14 +441,14 @@ msgstr "Vahvista sähköpostiosoitteesi"
 #| msgid ""
 #| "Hello from %(site_name)s!\n"
 #| "\n"
-#| "You're receiving this e-mail because you or someone else has requested a "
+#| "You're receiving this email because you or someone else has requested a "
 #| "password for your user account at %(site_domain)s.\n"
 #| "It can be safely ignored if you did not request a password reset. Click "
 #| "the link below to reset your password."
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -475,18 +475,18 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "Salasanan uusimissähköposti"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm Email Address"
 msgstr "Vahvista sähköpostiosoite"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "Vahvista, että <a href=\"mailto:%(email)s\">%(email)s</a> on käyttäjän "
@@ -499,8 +499,8 @@ msgstr "Vahvista"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "Tämä sähköpostiosoitteen vahvistuslinkki on vanhentunut tai muuten "
 "käyttökelvoton. Voit kuitenkin <a href=\"%(email_url)s\">pyytää uuden "
@@ -551,12 +551,12 @@ msgstr "Haluatko varmasti kirjautua ulos?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
 msgstr "Et voi poistaa ensisijaista sähköpostiosoitettasi (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
+msgid "Confirmation email sent to %(email)s."
 msgstr "Vahvistusviesti on lähetetty osoitteeseen %(email)s."
 
 #: templates/account/messages/email_confirmed.txt:2
@@ -566,7 +566,7 @@ msgstr "Sähköpostiosoite %(email)s on vahvistettu."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
+msgid "Removed email address %(email)s."
 msgstr "Poistettiin sähköpostiosoite %(email)s."
 
 #: templates/account/messages/logged_in.txt:4
@@ -587,11 +587,11 @@ msgid "Password successfully set."
 msgstr "Salasana asetettiin."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
+msgid "Primary email address set."
 msgstr "Ensisijainen sähköpostiosoite asetettiin."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "Ensisijaisen sähköpostiosoiteen tulee olla vahvistettu."
 
 #: templates/account/password_change.html:5
@@ -613,8 +613,8 @@ msgstr "Salasanan uusiminen"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
 "Unohditko salasanasi? Anna sähköpostiosoitteesi ja lähetämme sinulle "
 "sähköpostin, jonka avulla voit uusia sen."
@@ -629,7 +629,7 @@ msgstr "Ota meihin yhteyttä, jos sinulla on ongelmia salasanasi uusimisessa."
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "Olemme lähettäneet sinulle sähköpostia. Ota meihin yhteyttä, jos et saa sitä "
@@ -701,12 +701,12 @@ msgstr "olet jo kirjautunut käyttäjänä %(user_display)s."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
+msgid "Verify Your Email Address"
 msgstr "Vahvista sähköpostiosoitteesi"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
@@ -718,15 +718,15 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Tämä osa palvelua vaatii, että tiedämme kuka olet. Tämän takia sinun pitää "
 "vahvistaa omistavasi ilmoittamasi sähköpostiosoite."
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
 "Olemme lähettäneet sinulle sähköpostivahvistuksen. Klikkaa sähköpostissa "
@@ -831,7 +831,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
 #~ "Olet vahvistanut, että <a href=\"mailto:%(email)s\">%(email)s</a> on "
 #~ "sähköpostiosoite käyttäjälle %(user_display)s."

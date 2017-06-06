@@ -53,10 +53,10 @@ account.
 
 This approach separates the worlds of local and social
 authentication. However, there are common scenarios to be dealt with
-in both worlds. For example, an e-mail address passed along by an
+in both worlds. For example, an email address passed along by an
 OpenID provider is not guaranteed to be verified. So, before hooking
-an OpenID account up to a local account the e-mail address must be
-verified. So, e-mail verification needs to be present in both worlds.
+an OpenID account up to a local account the email address must be
+verified. So, email verification needs to be present in both worlds.
 
 Integrating both worlds is quite a tedious process. It is definitely
 not a matter of simply adding one social authentication app, and one

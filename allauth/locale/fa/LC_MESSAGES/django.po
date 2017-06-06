@@ -25,7 +25,7 @@ msgid "Too many failed login attempts. Try again later."
 msgstr ""
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
+msgid "A user is already registered with this email address."
 msgstr "کاربر دیگری قبلا با این نام کاربری ثبت نام کرده است."
 
 #: account/adapter.py:293
@@ -55,7 +55,7 @@ msgid "This account is currently inactive."
 msgstr "این حساب کاربری درحال حاضر غیرفعال است"
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
+msgid "The email address and/or password you specified are not correct."
 msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
 
 #: account/forms.py:84
@@ -68,12 +68,12 @@ msgstr "نام کاربری یا رمز عبور صحیح نمی‌باشد."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
+msgid "Email address"
 msgstr "آدرس ایمیل"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
+msgid "Email"
 msgstr "ایمیل"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
@@ -82,7 +82,7 @@ msgid "Username"
 msgstr "نام کاربری"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
+msgid "Username or email"
 msgstr "نام کاربری یا ایمیل"
 
 #: account/forms.py:116
@@ -92,18 +92,18 @@ msgstr "ورود"
 
 #: account/forms.py:258
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
 msgstr "ایمیل (اختیاری)"
 
 #: account/forms.py:262
 #, fuzzy
 #| msgid "email confirmation"
-msgid "E-mail address confirmation"
+msgid "Email address confirmation"
 msgstr "تائید آدرس ایمیل"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
+msgid "Email (optional)"
 msgstr "ایمیل (اختیاری)"
 
 #: account/forms.py:314
@@ -117,11 +117,11 @@ msgid "Password (again)"
 msgstr "تکرار رمز عبور"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
+msgid "This email address is already associated with this account."
 msgstr "ایمیل آدرسی که انتخاب کرده‌اید قبلا به این حساب کاربری وصل شده است."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
+msgid "This email address is already associated with another account."
 msgstr ""
 "ایمیل آدرسی که انتخاب کرده‌اید قبلا به این حساب کاربر دیگری وصل شده است."
 
@@ -142,7 +142,7 @@ msgid "Please type your current password."
 msgstr "لطفا رمز عبور فعلی خود را تایپ کنید"
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
+msgid "The email address is not assigned to any user account"
 msgstr "این آدرس ایمیل به هیچ حساب کاربری متصل نشده است"
 
 #: account/forms.py:534
@@ -154,7 +154,7 @@ msgid "user"
 msgstr "کاربر"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
+msgid "email address"
 msgstr "آدرس ایمیل"
 
 #: account/models.py:28
@@ -196,7 +196,7 @@ msgstr "تاییدیه‌های ایمیل"
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
 "یک جساب کاربری دیگری با این ایمیل آدرس موجود است. لطفا ابتدا از طریق آن حساب "
@@ -207,7 +207,7 @@ msgid "Your account has no password set up."
 msgstr "حساب کاربری شما هنوز هیچ رمز عبوری ندارد"
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
+msgid "Your account has no verified email address."
 msgstr "حساب کاربری شما هنوز هیچ ایمیل تایید شده‌ای ندارد."
 
 #: socialaccount/apps.py:7
@@ -348,11 +348,11 @@ msgid "Account"
 msgstr "حساب کاربری"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
+msgid "Email Addresses"
 msgstr "آدرس‌های ایمیل"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
+msgid "The following email addresses are associated with your account:"
 msgstr "این ایمیل آدرس‌هایی که در ادامه میبینید به حساب کاربری شما وصل هستند:"
 
 #: templates/account/email.html:24
@@ -385,23 +385,23 @@ msgstr "اخطار:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
 "شما درحال حاضر هیچ ایمیل آدرسی در حساب کاربری خودتان ندارید شما حتما باید یک "
 "ایمیل آدرس در حساب کاربری خودتان داشته باشید تا بوسیله آن از رویدادها آگاه "
 "شده و یا برای تغییر رمز عبور و غیره از آن ستفاده کنید"
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
+msgid "Add Email Address"
 msgstr "اضافه کردن آدرس ایمیل"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
+msgid "Add Email"
 msgstr "اضافه کردن ایمیل"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
+msgid "Do you really want to remove the selected email address?"
 msgstr "آیا واقعا می‌خواهید ایمیل های انتخاب شده را حذف کنید؟"
 
 #: templates/account/email/email_confirmation_message.txt:1
@@ -409,8 +409,8 @@ msgstr "آیا واقعا می‌خواهید ایمیل های انتخاب ش�
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
@@ -431,8 +431,8 @@ msgstr ""
 
 #: templates/account/email/email_confirmation_subject.txt:3
 #, fuzzy
-#| msgid "Confirm E-mail Address"
-msgid "Please Confirm Your E-mail Address"
+#| msgid "Confirm Email Address"
+msgid "Please Confirm Your Email Address"
 msgstr "ایمیل آدرس را تایید کنید"
 
 #: templates/account/email/password_reset_key_message.txt:1
@@ -440,7 +440,7 @@ msgstr "ایمیل آدرس را تایید کنید"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -472,18 +472,18 @@ msgstr ""
 "‏%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "ایمیل درخواست راه اندازی دوباره رمز عبور"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm Email Address"
 msgstr "ایمیل آدرس را تایید کنید"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "لطفا تایید کنید <a href=\"mailto:%(email)s\">%(email)s</a> که یک ایمیل آدرس "
@@ -496,8 +496,8 @@ msgstr "تایید"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "این پیوند برای تایید آدرس ایمیل منقضی شده است. لطفا <a href=\"%(email_url)s"
 "\">درخواست یک پیوند جدید برای تایید ایمیل خودتان را بدهید</a>."
@@ -548,12 +548,12 @@ msgstr "آیا مطمئن هستید که می‌خواهید از سیستم خ
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
 msgstr "شما نمی‌توانید ایمیل اصلی خودتان را حذف کنید (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
+msgid "Confirmation email sent to %(email)s."
 msgstr "تاییده اییمیل به آدرس %(email)sارسال شد."
 
 #: templates/account/messages/email_confirmed.txt:2
@@ -563,7 +563,7 @@ msgstr "شما ایمیل آدرس %(email)s را تایید کردید."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
+msgid "Removed email address %(email)s."
 msgstr "ایمیل آدرس %(email)s حذف شد."
 
 #: templates/account/messages/logged_in.txt:4
@@ -584,11 +584,11 @@ msgid "Password successfully set."
 msgstr "رمز عبور با موفقیت انتخاب شد."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
+msgid "Primary email address set."
 msgstr "ایمیل اصلی انتخاب شد."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "ایمیل اصلی شما حتما باید تایید شود."
 
 #: templates/account/password_change.html:5
@@ -610,8 +610,8 @@ msgstr "دریافت رمز جدید"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
 "رمز عبور خودتان را فراموش کرده‌اید؟ ایمیل خودتان را وارد کنید تا قادر باشید "
 "که رمز جدیدی دریافت کنید"
@@ -626,7 +626,7 @@ msgstr "اگر هرگونه مشکلی برای تغییر رمز عبور خو�
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "ما برای شما یک ایمیل ارسال کردیم، لطفا اگر تا دقایقی دیگر آن را دریافت "
@@ -698,12 +698,12 @@ msgstr "شما درحال حاضر با نام کاربری  %(user_display)s و
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
+msgid "Verify Your Email Address"
 msgstr "ایمیل آدرس خودتان را تکمیل فرمایید"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
@@ -715,7 +715,7 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "این قسمت از سایت ما نیاز به تایید دارد که\n"
 "هویت شما باید تایید شود، بهمین دلیل ما باید\n"
@@ -723,8 +723,8 @@ msgstr ""
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
 "ما یک ایمیل برای تایید شدن شما برایتان ارسال کردیم\n"
@@ -829,7 +829,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
 #~ "شما تایید کردید که <a href=\"mailto:%(email)s\">%(email)s</a> یکآدرس "
 #~ "ایمیل برای کاربر %(user_display)s است."

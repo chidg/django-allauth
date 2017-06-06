@@ -30,7 +30,7 @@ msgstr ""
 "Pārāk daudz neveiksmīgi pieslēgšanās mēģinājumi. Mēģiniet vēlreiz vēlāk."
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
+msgid "A user is already registered with this email address."
 msgstr "Lietotājs ar šādu e-pasta adresi jau ir reģistrēts."
 
 #: account/adapter.py:293
@@ -59,7 +59,7 @@ msgid "This account is currently inactive."
 msgstr "Šis konts šobrīd ir neaktīvs."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
+msgid "The email address and/or password you specified are not correct."
 msgstr "Nepareizs e-pasts un/vai parole."
 
 #: account/forms.py:84
@@ -72,12 +72,12 @@ msgstr "Nepareiza pieteikšanās informācija un/vai parole."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
+msgid "Email address"
 msgstr "E-pasta adrese"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
+msgid "Email"
 msgstr "E-pasts"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
@@ -86,7 +86,7 @@ msgid "Username"
 msgstr "Lietotājvārds"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
+msgid "Username or email"
 msgstr "Lietotājvārds vai e-pasts"
 
 #: account/forms.py:116
@@ -96,18 +96,18 @@ msgstr "Ieiet"
 
 #: account/forms.py:258
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
 msgstr "E-pasts (izvēles)"
 
 #: account/forms.py:262
 #, fuzzy
 #| msgid "email confirmation"
-msgid "E-mail address confirmation"
+msgid "Email address confirmation"
 msgstr "e-pasta apstiprinājums"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
+msgid "Email (optional)"
 msgstr "E-pasts (izvēles)"
 
 #: account/forms.py:314
@@ -121,11 +121,11 @@ msgid "Password (again)"
 msgstr "Parole (vēlreiz)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
+msgid "This email address is already associated with this account."
 msgstr "Šī e-pasta adrese jau ir piesaistīta šim kontam."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
+msgid "This email address is already associated with another account."
 msgstr "Šī e-pasta adrese jau ir piesaistīta citam kontam."
 
 #: account/forms.py:422
@@ -145,7 +145,7 @@ msgid "Please type your current password."
 msgstr "Lūdzu ievadiet jūsu šobrīdējo paroli."
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
+msgid "The email address is not assigned to any user account"
 msgstr "E-pasta adrese nav piesaistīta nevienam lietotāja kontam"
 
 #: account/forms.py:534
@@ -157,7 +157,7 @@ msgid "user"
 msgstr "lietotājs"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
+msgid "email address"
 msgstr "e-pasta adrese"
 
 #: account/models.py:28
@@ -199,7 +199,7 @@ msgstr "e-pasta apstiprinājumi"
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
 "Jau eksistē konts ar šo e-pasta adresi. Lūdzu sākumā ieejiet tajā kontā, tad "
@@ -210,7 +210,7 @@ msgid "Your account has no password set up."
 msgstr "Jūsu kontam nav uzstādīta parole."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
+msgid "Your account has no verified email address."
 msgstr "Jūsu kontam nav apstiprinātas e-pasta adreses."
 
 #: socialaccount/apps.py:7
@@ -348,11 +348,11 @@ msgid "Account"
 msgstr "Konts"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
+msgid "Email Addresses"
 msgstr "E-pasta adreses"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
+msgid "The following email addresses are associated with your account:"
 msgstr "Sekojošas e-pasta adreses ir piesaistītas jūsu kontam:"
 
 #: templates/account/email.html:24
@@ -385,23 +385,23 @@ msgstr "Brīdinājums:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
 "Jums pašlaik nav izveidota neviena e-pasta adrese. Jums patiešām vajadzētu "
 "pievienot e-pasta adresi, lai jūs varētu saņemt paziņojumus, atiestatīt savu "
 "paroli utt."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
+msgid "Add Email Address"
 msgstr "Pievienot e-pasta adresi"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
+msgid "Add Email"
 msgstr "Pievienot e-pastu"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
+msgid "Do you really want to remove the selected email address?"
 msgstr "Vai jūs tiešām vēlaties noņemt izvēlēto e-pasta adresi?"
 
 #: templates/account/email/email_confirmation_message.txt:1
@@ -409,8 +409,8 @@ msgstr "Vai jūs tiešām vēlaties noņemt izvēlēto e-pasta adresi?"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
@@ -433,7 +433,7 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
+msgid "Please Confirm Your Email Address"
 msgstr "Lūdzu apstipriniet savu e-pasta adresi"
 
 #: templates/account/email/password_reset_key_message.txt:1
@@ -441,7 +441,7 @@ msgstr "Lūdzu apstipriniet savu e-pasta adresi"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -468,18 +468,18 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "Paroles atjaunošanas e-pasts"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm Email Address"
 msgstr "Apstipriniet e-pasta adresi"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "Lūdzu apstipriniet ka <a href=\"mailto:%(email)s\">%(email)s</a> e-pasta "
@@ -492,8 +492,8 @@ msgstr "Apstiprināt"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "Šī e-pasta apstiprināšanas saitei ir beidzies derīguma termiņš vai tas ir "
 "nederīgs. Lūdzu <a href=\"%(email_url)s\">pieprasiet jaunu e-pasta "
@@ -545,12 +545,12 @@ msgstr "Vai jūs tiešām vēlaties iziet?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
 msgstr "Jūs nevarat noņemt savu primāro e-pasta adresi (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
+msgid "Confirmation email sent to %(email)s."
 msgstr "Apstiprinājuma e-pasts nosūtīts uz %(email)s."
 
 #: templates/account/messages/email_confirmed.txt:2
@@ -560,7 +560,7 @@ msgstr "Jūs esat apstiprinājis %(email)s."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
+msgid "Removed email address %(email)s."
 msgstr "Noņemta e-pasta adrese %(email)s."
 
 #: templates/account/messages/logged_in.txt:4
@@ -581,11 +581,11 @@ msgid "Password successfully set."
 msgstr "Parole veiksmīgi uzstādīta."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
+msgid "Primary email address set."
 msgstr "Primārā e-pasta adrese uzstādīta."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "Jūsu primārajai e-pasta adresei jābūt apstiprinātai."
 
 #: templates/account/password_change.html:5
@@ -607,8 +607,8 @@ msgstr "Atjaunot paroli"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
 "Aizmirsāt savu paroli? Ievadiet zemāk savu e-pasta adresi, un mēs jums "
 "nosūtīsim e-pasta vēstuli, lai atjaunotu to."
@@ -623,7 +623,7 @@ msgstr "Lūdzu sazinieties ar mums, ja jums ir kādas problēmas atjaunojot to."
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "Mēs jums nosūtījām e-pasta vēstuli. Lūdzu sazinieties ar mums, ja dažu "
@@ -695,12 +695,12 @@ msgstr "jūs jau esat iegājuši kā %(user_display)s."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
+msgid "Verify Your Email Address"
 msgstr "Apstipriniet savu e-pasta adresi"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
@@ -712,7 +712,7 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Šī lapas daļa mums nosaka pārbaudīt, ka\n"
 "jūs esat tas, kas jūs apgalvojat esam. Šim mērķim, mēs pieprasām, lai jūs\n"
@@ -720,8 +720,8 @@ msgstr ""
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
 "Mēs esam jums nosūtījuši e-pastu\n"

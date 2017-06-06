@@ -25,8 +25,8 @@ msgid "Too many failed login attempts. Try again later."
 msgstr "Zbyt wiele nieudanych prób logowania. Spróbuj ponownie później."
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
-msgstr "W systemie jest już zarejestrowany użytkownik o tym adresie e-mail."
+msgid "A user is already registered with this email address."
+msgstr "W systemie jest już zarejestrowany użytkownik o tym adresie email."
 
 #: account/adapter.py:293
 #, python-brace-format
@@ -54,8 +54,8 @@ msgid "This account is currently inactive."
 msgstr "Konto jest obecnie nieaktywne."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Adres e-mail i/lub hasło, które podałeś, są niepoprawne."
+msgid "The email address and/or password you specified are not correct."
+msgstr "Adres email i/lub hasło, które podałeś, są niepoprawne."
 
 #: account/forms.py:84
 msgid "The username and/or password you specified are not correct."
@@ -67,13 +67,13 @@ msgstr "Login i/lub hasło, które podałeś, są niepoprawne."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
-msgstr "Adres e-mail"
+msgid "Email address"
+msgstr "Adres email"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
-msgstr "E-mail"
+msgid "Email"
+msgstr "Email"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
 #: account/forms.py:234
@@ -81,8 +81,8 @@ msgid "Username"
 msgstr "Nazwa użytkownika"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
-msgstr "Nazwa użytkownika lub e-mail"
+msgid "Username or email"
+msgstr "Nazwa użytkownika lub email"
 
 #: account/forms.py:116
 msgctxt "field label"
@@ -90,32 +90,32 @@ msgid "Login"
 msgstr "Login"
 
 #: account/forms.py:258
-msgid "E-mail (again)"
-msgstr "E-mail (ponownie)"
+msgid "Email (again)"
+msgstr "Email (ponownie)"
 
 #: account/forms.py:262
-msgid "E-mail address confirmation"
+msgid "Email address confirmation"
 msgstr "Powierdzenie adresu email"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
-msgstr "E-mail (opcjonalnie)"
+msgid "Email (optional)"
+msgstr "Email (opcjonalnie)"
 
 #: account/forms.py:314
 msgid "You must type the same email each time."
-msgstr "Musisz wpisać za każdym razem ten sam e-mail."
+msgstr "Musisz wpisać za każdym razem ten sam email."
 
 #: account/forms.py:337 account/forms.py:443
 msgid "Password (again)"
 msgstr "Hasło (ponownie)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
-msgstr "Ten adres e-mail jest już powiązany z tym kontem."
+msgid "This email address is already associated with this account."
+msgstr "Ten adres email jest już powiązany z tym kontem."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
-msgstr "Ten adres e-mail jest już powiązany z innym kontem."
+msgid "This email address is already associated with another account."
+msgstr "Ten adres email jest już powiązany z innym kontem."
 
 #: account/forms.py:422
 msgid "Current Password"
@@ -134,8 +134,8 @@ msgid "Please type your current password."
 msgstr "Proszę wpisz swoje obecne hasło"
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Adres e-mail nie jest powiązany z żadnym kontem użytkownika"
+msgid "The email address is not assigned to any user account"
+msgstr "Adres email nie jest powiązany z żadnym kontem użytkownika"
 
 #: account/forms.py:534
 msgid "The password reset token was invalid."
@@ -146,8 +146,8 @@ msgid "user"
 msgstr "użytkownik"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
-msgstr "adres e-mail"
+msgid "email address"
+msgstr "adres email"
 
 #: account/models.py:28
 msgid "verified"
@@ -163,7 +163,7 @@ msgstr "adres email"
 
 #: account/models.py:35
 msgid "email addresses"
-msgstr "adresy e-mail"
+msgstr "adresy email"
 
 #: account/models.py:88
 msgid "created"
@@ -188,10 +188,10 @@ msgstr "potwierdzenia adresów email"
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
-"Istnieje już konto dla tego adresu e-mail. Zaloguj się wpierw na to konto, a "
+"Istnieje już konto dla tego adresu email. Zaloguj się wpierw na to konto, a "
 "następnie połącz swoje konto %s."
 
 #: socialaccount/adapter.py:131
@@ -199,8 +199,8 @@ msgid "Your account has no password set up."
 msgstr "Twoje konto nie posiada hasła."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
-msgstr "Twoje konto nie ma zweryfikowanego adresu e-mail"
+msgid "Your account has no verified email address."
+msgstr "Twoje konto nie ma zweryfikowanego adresu email"
 
 #: socialaccount/apps.py:7
 msgid "Social Accounts"
@@ -337,12 +337,12 @@ msgid "Account"
 msgstr "Konto"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
-msgstr "Adresy e-mail"
+msgid "Email Addresses"
+msgstr "Adresy email"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
-msgstr "Poniższe adresy e-mail są powiązane z Twoim kontem:"
+msgid "The following email addresses are associated with your account:"
+msgstr "Poniższe adresy email są powiązane z Twoim kontem:"
 
 #: templates/account/email.html:24
 msgid "Verified"
@@ -374,40 +374,40 @@ msgstr "Uwaga:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
-"Aktualnie nie posiadasz przypisanych do twojego konta adresów e-mail. "
+"Aktualnie nie posiadasz przypisanych do twojego konta adresów email. "
 "Powinieneś je dodać, aby otrzymywać informacje administracyjne, wiadomości o "
 "zmianie hasła, itd."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
-msgstr "Dodaj adres e-mail"
+msgid "Add Email Address"
+msgstr "Dodaj adres email"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
-msgstr "Dodaj e-mail"
+msgid "Add Email"
+msgstr "Dodaj email"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
-msgstr "Czy naprawdę chcesz usunąć wybrany adres e-mail?"
+msgid "Do you really want to remove the selected email address?"
+msgstr "Czy naprawdę chcesz usunąć wybrany adres email?"
 
 #: templates/account/email/email_confirmation_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
 "Witam w imieniu%(site_name)s!\n"
 "\n"
-"Otrzymujesz ten e-mail ,ponieważ użytkownik %(user_display)s na "
-"%(site_domain)s podał niniejszy adres e-mail, aby powiązać z swoim kontem.\n"
+"Otrzymujesz ten email ,ponieważ użytkownik %(user_display)s na "
+"%(site_domain)s podał niniejszy adres email, aby powiązać z swoim kontem.\n"
 "\n"
 "Jeżeli to prawda. Kliknij, aby go aktywować %(activate_url)s \n"
 
@@ -421,15 +421,15 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
-msgstr "Proszę potwierdź adres e-mail"
+msgid "Please Confirm Your Email Address"
+msgstr "Proszę potwierdź adres email"
 
 #: templates/account/email/password_reset_key_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -456,22 +456,22 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
-msgstr "E-mail z łączem do zmiany hasła."
+msgid "Password Reset Email"
+msgstr "Email z łączem do zmiany hasła."
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
-msgstr "Potwierdź adres e-mail"
+msgid "Confirm Email Address"
+msgstr "Potwierdź adres email"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "Proszę potwierdź, że adres <a href=\"mailto:%(email)s\">%(email)s</a> jest "
-"adresem e-mail dla użytkownika %(user_display)s."
+"adresem email dla użytkownika %(user_display)s."
 
 #: templates/account/email_confirm.html:20
 msgid "Confirm"
@@ -480,8 +480,8 @@ msgstr "Potwierdź"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "Łącze z adresem do zresetowania hasła wygasło lub jest niepoprawne. Musisz "
 "<a href=\"%(email_url)s\">wygenerować nowe łącze dla Twojego adresu. </a>."
@@ -532,13 +532,13 @@ msgstr "Jesteś pewny, że chcesz się wylogować ?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr "Nie możesz usunąć postawowego adresu e-mail (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
+msgstr "Nie możesz usunąć postawowego adresu email (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr "E-mail z potwierdzeniem został wysłany na adres %(email)s."
+msgid "Confirmation email sent to %(email)s."
+msgstr "Email z potwierdzeniem został wysłany na adres %(email)s."
 
 #: templates/account/messages/email_confirmed.txt:2
 #, python-format
@@ -547,8 +547,8 @@ msgstr "Potwierdziłeś adres %(email)s."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
-msgstr "Adres e-mail %(email)s został usunięty."
+msgid "Removed email address %(email)s."
+msgstr "Adres email %(email)s został usunięty."
 
 #: templates/account/messages/logged_in.txt:4
 #, python-format
@@ -568,12 +568,12 @@ msgid "Password successfully set."
 msgstr "Hasło zostało ustawione."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
-msgstr "Ustaw podstawowy adres e-mail."
+msgid "Primary email address set."
+msgstr "Ustaw podstawowy adres email."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
-msgstr "Twój podstawowy adres e-mail musi być zweryfikowany."
+msgid "Your primary email address must be verified."
+msgstr "Twój podstawowy adres email musi być zweryfikowany."
 
 #: templates/account/password_change.html:5
 #: templates/account/password_change.html:8
@@ -594,10 +594,10 @@ msgstr "Resetowanie hasła"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
-"Zapomniałeś swojego hasła? Wpisz swój adres e-mail poniżej, a my wyślemy "
+"Zapomniałeś swojego hasła? Wpisz swój adres email poniżej, a my wyślemy "
 "Tobie wiadomość, dzięki której dokonasz jego zmiany."
 
 #: templates/account/password_reset.html:20
@@ -611,7 +611,7 @@ msgstr ""
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "Wysłaliśmy Tobie email. Proszę skontaktuj się z nami, jeśli go nie otrzymasz "
@@ -683,16 +683,16 @@ msgstr "jesteś już zalogowany jako %(user_display)s"
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
-msgstr "Zweryfikuj swój adres e-mail"
+msgid "Verify Your Email Address"
+msgstr "Zweryfikuj swój adres email"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Przesłaliśmy weryfikacyjny e-mail na adres <a href=\"mailto:%(email)s\">"
+"Przesłaliśmy weryfikacyjny email na adres <a href=\"mailto:%(email)s\">"
 "%(email)s</a>. Kliknij w łącze w wiadomości, aby zakończyć proces "
 "rejestracji. Skontaktuj się z nami, jeśli nie otrzymasz jej w ciągu kilku "
 "minut."
@@ -701,18 +701,18 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Ta część strony wymaga weryfikacji tego, kim jesteś. Dlatego wymagamy "
-"weryfikacji Twojego adresu e-mail"
+"weryfikacji Twojego adresu email"
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
-"Wysłaliśmy Tobie wiadomość e-mail.\n"
+"Wysłaliśmy Tobie wiadomość email.\n"
 "W celu weryfikacji musisz kliknąć w łącze zawarte w wiadomości. Proszę "
 "skontaktuj się z nami, jeśli jej nie otrzymałeś w ciągu paru minut. "
 
@@ -723,7 +723,7 @@ msgid ""
 "mail address</a>."
 msgstr ""
 "<strong>Uwaga:</strong> możesz ciągle <a href=\"%(email_url)s\">zmienić Twój "
-"adres e-mail</a>."
+"adres email</a>."
 
 #: templates/openid/login.html:9
 msgid "OpenID Sign In"
@@ -813,10 +813,10 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
 #~ "Potwierdziłeś, że adres <a href=\"mailto:%(email)s\">%(email)s</a> jest "
-#~ "adresem e-mail użytkownika %(user_display)s."
+#~ "adresem email użytkownika %(user_display)s."
 
 #~ msgid "Thanks for using our site!"
 #~ msgstr "Dziękujemy za używanie naszej strony!"
@@ -827,7 +827,7 @@ msgstr ""
 #~ msgid "Key (Stack Exchange only)"
 #~ msgstr "Klucz (tylko dla Stack Exchange)"
 
-#~ msgid "Confirmation e-mail sent to %(email)s"
+#~ msgid "Confirmation email sent to %(email)s"
 #~ msgstr "Wiadomość z potwierdzeniem została wysłana na adres %(email)s"
 
 #~ msgid "Delete Password"

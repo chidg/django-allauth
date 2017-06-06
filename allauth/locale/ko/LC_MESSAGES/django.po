@@ -27,7 +27,7 @@ msgid "Too many failed login attempts. Try again later."
 msgstr "너무 많은 로그인 실패가 감지되었습니다. 잠시 후에 다시 시도하세요."
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
+msgid "A user is already registered with this email address."
 msgstr "해당 이메일은 이미 사용되고 있습니다."
 
 #: account/adapter.py:293
@@ -56,7 +56,7 @@ msgid "This account is currently inactive."
 msgstr "해당 계정은 현재 비활성화 상태입니다."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
+msgid "The email address and/or password you specified are not correct."
 msgstr "이메일 또는 비밀번호가 올바르지 않습니다."
 
 #: account/forms.py:84
@@ -69,12 +69,12 @@ msgstr "로그인 또는 비밀번호가 올바르지 않습니다."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
+msgid "Email address"
 msgstr "이메일 주소"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
+msgid "Email"
 msgstr "이메일"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
@@ -83,7 +83,7 @@ msgid "Username"
 msgstr "아이디"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
+msgid "Username or email"
 msgstr "아이디 또는 이메일"
 
 #: account/forms.py:116
@@ -92,15 +92,15 @@ msgid "Login"
 msgstr "로그인"
 
 #: account/forms.py:258
-msgid "E-mail (again)"
+msgid "Email (again)"
 msgstr "이메일 (확인)"
 
 #: account/forms.py:262
-msgid "E-mail address confirmation"
+msgid "Email address confirmation"
 msgstr "이메일 주소 확인"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
+msgid "Email (optional)"
 msgstr "이메일 (선택사항)"
 
 #: account/forms.py:314
@@ -112,11 +112,11 @@ msgid "Password (again)"
 msgstr "비밀번호 (확인)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
+msgid "This email address is already associated with this account."
 msgstr "해당 이메일은 이미 이 계정에 등록되어 있습니다."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
+msgid "This email address is already associated with another account."
 msgstr "해당 이메일은 다른 계정에 등록되어 있습니다."
 
 #: account/forms.py:422
@@ -136,7 +136,7 @@ msgid "Please type your current password."
 msgstr "현재 비밀번호를 입력하세요."
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
+msgid "The email address is not assigned to any user account"
 msgstr "해당 이메일을 가지고 있는 사용자가 없습니다."
 
 #: account/forms.py:534
@@ -148,7 +148,7 @@ msgid "user"
 msgstr "사용자"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
+msgid "email address"
 msgstr "이메일 주소"
 
 #: account/models.py:28
@@ -190,7 +190,7 @@ msgstr "이메일 확인"
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
 "해당 이메일을 사용중인 계정이 이미 존재합니다. 해당 계정으로 로그인 후에 %s "
@@ -201,7 +201,7 @@ msgid "Your account has no password set up."
 msgstr "당신의 계정에 비밀번호가 설정되어있지 않습니다."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
+msgid "Your account has no verified email address."
 msgstr "당신의 계정에는 인증된 이메일이 없습니다."
 
 #: socialaccount/apps.py:7
@@ -339,11 +339,11 @@ msgid "Account"
 msgstr "계정"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
+msgid "Email Addresses"
 msgstr "이메일 계정"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
+msgid "The following email addresses are associated with your account:"
 msgstr "다음 이메일 주소들이 당신의 계정에 등록되어 있습니다."
 
 #: templates/account/email.html:24
@@ -376,22 +376,22 @@ msgstr "경고: "
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
 "등록된 이메일이 없습니다. 알림, 비밀번호 초기화 등을 위해 이메일을 등록해야 "
 "합니다."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
+msgid "Add Email Address"
 msgstr "이메일 주소 추가"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
+msgid "Add Email"
 msgstr "이메일 추가"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
+msgid "Do you really want to remove the selected email address?"
 msgstr "정말로 선택하신 이메일을 제거하시겠습니까?"
 
 #: templates/account/email/email_confirmation_message.txt:1
@@ -399,8 +399,8 @@ msgstr "정말로 선택하신 이메일을 제거하시겠습니까?"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
@@ -422,7 +422,7 @@ msgstr ""
 "%(site_name)s %(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
+msgid "Please Confirm Your Email Address"
 msgstr "이메일 주소를 확인하세요."
 
 #: templates/account/email/password_reset_key_message.txt:1
@@ -430,7 +430,7 @@ msgstr "이메일 주소를 확인하세요."
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -449,18 +449,18 @@ msgid ""
 msgstr ""
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "비밀번호 초기화 이메일"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm Email Address"
 msgstr "이메일 확인"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 
@@ -471,8 +471,8 @@ msgstr ""
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 
 #: templates/account/login.html:6 templates/account/login.html:10
@@ -517,12 +517,12 @@ msgstr "정말로 로그아웃 하시겠습니까?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
 msgstr "주 이메일은 제거할 수 없습니다 (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
+msgid "Confirmation email sent to %(email)s."
 msgstr "%(email)s 으로 확인 메일이 전송되었습니다."
 
 #: templates/account/messages/email_confirmed.txt:2
@@ -532,7 +532,7 @@ msgstr "%(email)s 을 확인하였습니다."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
+msgid "Removed email address %(email)s."
 msgstr "%(email)s 을 제거하였습니다."
 
 #: templates/account/messages/logged_in.txt:4
@@ -553,11 +553,11 @@ msgid "Password successfully set."
 msgstr "비밀번호가 성공적으로 설정되었습니다."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
+msgid "Primary email address set."
 msgstr "주 이메일이 지정되었습니다."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "주 이메일은 인증이 필요합니다."
 
 #: templates/account/password_change.html:5
@@ -579,8 +579,8 @@ msgstr "비밀번호 초기화"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
 "비밀번호를 잊으셨나요? 아래에 당신의 이메일을 입력하시면, 비밀번호 초기화 이"
 "메일을 전송해 드리겠습니다."
@@ -595,7 +595,7 @@ msgstr "비밀번호 초기화에 문제가 있으시면 저희에게 연락주�
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "이메일이 전송되었습니다. 몇 분 후에도 이메일이 오지 않으면 저희에게 연락주세"
@@ -667,12 +667,12 @@ msgstr "%(user_display)s 로 이미 로그인 되어있습니다."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
+msgid "Verify Your Email Address"
 msgstr "이메일을 인증하세요"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
@@ -683,15 +683,15 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "해당 페이지는 이메일 인증이 필요합니다.\n"
 "이메일을 인증하세요."
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
 "인증메일을 전송하였습니다.\n"

@@ -32,8 +32,8 @@ msgid "Too many failed login attempts. Try again later."
 msgstr ""
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
-msgstr "Već postoji korisnik registriran s ovom e-mail adresom."
+msgid "A user is already registered with this email address."
+msgstr "Već postoji korisnik registriran s ovom email adresom."
 
 #: account/adapter.py:293
 #, python-brace-format
@@ -61,8 +61,8 @@ msgid "This account is currently inactive."
 msgstr "Ovaj korisnički račun je privremeno neaktivan."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "E-mail adresa i/ili lozinka nisu ispravni."
+msgid "The email address and/or password you specified are not correct."
+msgstr "Email adresa i/ili lozinka nisu ispravni."
 
 #: account/forms.py:84
 msgid "The username and/or password you specified are not correct."
@@ -74,13 +74,13 @@ msgstr "Korisničko ime i/ili zaporka nisu ispravni."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
-msgstr "E-mail adresa"
+msgid "Email address"
+msgstr "Email adresa"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
-msgstr "E-mail"
+msgid "Email"
+msgstr "Email"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
 #: account/forms.py:234
@@ -88,8 +88,8 @@ msgid "Username"
 msgstr "Korisničko ime"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
-msgstr "Korisničko ime ili e-mail"
+msgid "Username or email"
+msgstr "Korisničko ime ili email"
 
 #: account/forms.py:116
 msgctxt "field label"
@@ -98,19 +98,19 @@ msgstr "Prijava"
 
 #: account/forms.py:258
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
-msgstr "E-mail (neobavezno)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
+msgstr "Email (neobavezno)"
 
 #: account/forms.py:262
 #, fuzzy
 #| msgid "email confirmation"
-msgid "E-mail address confirmation"
-msgstr "E-mail potvrda"
+msgid "Email address confirmation"
+msgstr "Email potvrda"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
-msgstr "E-mail (neobavezno)"
+msgid "Email (optional)"
+msgstr "Email (neobavezno)"
 
 #: account/forms.py:314
 #, fuzzy
@@ -123,12 +123,12 @@ msgid "Password (again)"
 msgstr "Lozinka (ponovno)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
-msgstr "E-mail adresa je već registrirana s ovim korisničkim računom."
+msgid "This email address is already associated with this account."
+msgstr "Email adresa je već registrirana s ovim korisničkim računom."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
-msgstr "E-mail adresa je već registrirana s drugim korisničkim računom."
+msgid "This email address is already associated with another account."
+msgstr "Email adresa je već registrirana s drugim korisničkim računom."
 
 #: account/forms.py:422
 msgid "Current Password"
@@ -147,8 +147,8 @@ msgid "Please type your current password."
 msgstr "Molimo unesite trenutnu lozinku."
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Upisana e-mail adresa nije dodijeljena niti jednom korisničkom računu"
+msgid "The email address is not assigned to any user account"
+msgstr "Upisana email adresa nije dodijeljena niti jednom korisničkom računu"
 
 #: account/forms.py:534
 msgid "The password reset token was invalid."
@@ -159,8 +159,8 @@ msgid "user"
 msgstr "korisnik"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
-msgstr "e-mail adresa"
+msgid "email address"
+msgstr "email adresa"
 
 #: account/models.py:28
 msgid "verified"
@@ -172,11 +172,11 @@ msgstr "primarna"
 
 #: account/models.py:34
 msgid "email address"
-msgstr "E-mail adresa"
+msgstr "Email adresa"
 
 #: account/models.py:35
 msgid "email addresses"
-msgstr "E-mail adrese"
+msgstr "Email adrese"
 
 #: account/models.py:88
 msgid "created"
@@ -192,19 +192,19 @@ msgstr ""
 
 #: account/models.py:96
 msgid "email confirmation"
-msgstr "E-mail potvrda"
+msgstr "Email potvrda"
 
 #: account/models.py:97
 msgid "email confirmations"
-msgstr "E-mail potvrde"
+msgstr "Email potvrde"
 
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
-"Korisnički račun s ovom e-mail adresom već postoji. Molimo da se prvo "
+"Korisnički račun s ovom email adresom već postoji. Molimo da se prvo "
 "ulogirate pod tim korisničkim računom i spojite svoj %s račun"
 
 #: socialaccount/adapter.py:131
@@ -212,8 +212,8 @@ msgid "Your account has no password set up."
 msgstr "Vaš korisnički račun nema postavljenu lozinku."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
-msgstr "Vaš korisnički račun nema potvrđenu e-mail adresu."
+msgid "Your account has no verified email address."
+msgstr "Vaš korisnički račun nema potvrđenu email adresu."
 
 #: socialaccount/apps.py:7
 msgid "Social Accounts"
@@ -350,12 +350,12 @@ msgid "Account"
 msgstr "Korisnički račun"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
-msgstr "E-mail adrese"
+msgid "Email Addresses"
+msgstr "Email adrese"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
-msgstr "Slijedeće e-mail adrese su povezane sa vašim korisničkim računom"
+msgid "The following email addresses are associated with your account:"
+msgstr "Slijedeće email adrese su povezane sa vašim korisničkim računom"
 
 #: templates/account/email.html:24
 msgid "Verified"
@@ -375,7 +375,7 @@ msgstr "Označi kao primarnu"
 
 #: templates/account/email.html:35
 msgid "Re-send Verification"
-msgstr "Ponovno pošalji e-mail za potvrdu"
+msgstr "Ponovno pošalji email za potvrdu"
 
 #: templates/account/email.html:36 templates/socialaccount/connections.html:35
 msgid "Remove"
@@ -387,39 +387,39 @@ msgstr "Pažnja:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
-"Trenutno nemate postavljenu niti jednu e-mail adresu. Postavite e-mail "
+"Trenutno nemate postavljenu niti jednu email adresu. Postavite email "
 "adresu kako biste mogli primati obavijesti, promijeniti lozinku i slično."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
-msgstr "Dodaj e-mail adresu"
+msgid "Add Email Address"
+msgstr "Dodaj email adresu"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
-msgstr "Dodaj e-mail"
+msgid "Add Email"
+msgstr "Dodaj email"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
-msgstr "Da li zaista želite ukloniti e-mail adresu?"
+msgid "Do you really want to remove the selected email address?"
+msgstr "Da li zaista želite ukloniti email adresu?"
 
 #: templates/account/email/email_confirmation_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
 "Pozdravi od %(site_name)s!\n"
 "\n"
-"Primili ste ovaj e-mail jer je korisnik %(user_display)s na stranici "
-"%(site_domain)s upisao ovu e-mail adresu kao svoju.\n"
+"Primili ste ovaj email jer je korisnik %(user_display)s na stranici "
+"%(site_domain)s upisao ovu email adresu kao svoju.\n"
 "\n"
 "Za potvrdu, kliknite %(activate_url)s\n"
 
@@ -431,24 +431,24 @@ msgid ""
 msgstr ""
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
-msgstr "Potvrdite vašu e-mail adresu"
+msgid "Please Confirm Your Email Address"
+msgstr "Potvrdite vašu email adresu"
 
 #: templates/account/email/password_reset_key_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
 msgstr ""
 "Pozdravi od %(site_name)s!\n"
 "\n"
-"Primili ste ovaj e-mail jer ste vi ili netko drugi zatražili lozinku za vaš "
+"Primili ste ovaj email jer ste vi ili netko drugi zatražili lozinku za vaš "
 "korisnički račun na %(site_domain)s.\n"
-"Ako niste zatražili resetiranje lozinke, slobodno zanemarite ovaj e-mail. "
+"Ako niste zatražili resetiranje lozinke, slobodno zanemarite ovaj email. "
 "Kliknite na sljedeći link za resetiranje lozinke."
 
 #: templates/account/email/password_reset_key_message.txt:8
@@ -464,21 +464,21 @@ msgid ""
 msgstr ""
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
-msgstr "E-mail za resetiranje lozinke"
+msgid "Password Reset Email"
+msgstr "Email za resetiranje lozinke"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
-msgstr "Potvrdite vašu e-mail adresu"
+msgid "Confirm Email Address"
+msgstr "Potvrdite vašu email adresu"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
-"Molimo potvrdite da <a href=\"mailto:%(email)s\">%(email)s</a> je e-mail "
+"Molimo potvrdite da <a href=\"mailto:%(email)s\">%(email)s</a> je email "
 "adresa za korisnika %(user_display)s."
 
 #: templates/account/email_confirm.html:20
@@ -488,11 +488,11 @@ msgstr "Potvrda"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "Ovaj link za potvrdu je istekao ili je neispravan. Zatražite <a href=\\"
-"\"%(email_url)s\\\">novi e-mail za potvrdu</a>."
+"\"%(email_url)s\\\">novi email za potvrdu</a>."
 
 #: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
@@ -539,23 +539,23 @@ msgstr "Jeste li sigurni da se želite odjaviti?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr "Nije moguće ukloniti vašu primarnu e-mail adresu %(email)s "
+msgid "You cannot remove your primary email address (%(email)s)."
+msgstr "Nije moguće ukloniti vašu primarnu email adresu %(email)s "
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr "E-mail s linkom za potvrdu registracije je poslan na %(email)s"
+msgid "Confirmation email sent to %(email)s."
+msgstr "Email s linkom za potvrdu registracije je poslan na %(email)s"
 
 #: templates/account/messages/email_confirmed.txt:2
 #, python-format
 msgid "You have confirmed %(email)s."
-msgstr "Potvrdili ste e-mail adresu %(email)s."
+msgstr "Potvrdili ste email adresu %(email)s."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
-msgstr "Uklonjena e-mail adresa %(email)s."
+msgid "Removed email address %(email)s."
+msgstr "Uklonjena email adresa %(email)s."
 
 #: templates/account/messages/logged_in.txt:4
 #, python-format
@@ -575,11 +575,11 @@ msgid "Password successfully set."
 msgstr "Lozinka je uspješno postavljena."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
-msgstr "Primarna e-mail adresa je postavljena"
+msgid "Primary email address set."
+msgstr "Primarna email adresa je postavljena"
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "Vaša primarna adresa more biti potvrđena."
 
 #: templates/account/password_change.html:5
@@ -601,10 +601,10 @@ msgstr "Resetiranje lozinke"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
-"Zaboravili ste lozinku? Unesite vašu e-mail adresu i poslati ćemo vam e-mail "
+"Zaboravili ste lozinku? Unesite vašu email adresu i poslati ćemo vam email "
 "uz pomoć kojeg ćete promijeniti lozinku."
 
 #: templates/account/password_reset.html:20
@@ -617,10 +617,10 @@ msgstr "Molimo konktaktirajte nas ukoliko imate problema pri promjeni lozinke."
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Poslali smo vam e-mail. Molimo kontaktirajte nas ako ga ne primite unutar "
+"Poslali smo vam email. Molimo kontaktirajte nas ako ga ne primite unutar "
 "nekoliko sljedećih minuta."
 
 #: templates/account/password_reset_from_key.html:7
@@ -690,16 +690,16 @@ msgstr "već ste prijavljeni kao %(user_display)s."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
-msgstr "Potvrdite vašu e-mail adresu"
+msgid "Verify Your Email Address"
+msgstr "Potvrdite vašu email adresu"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Poslali smo e-mail u svrhu potvrde. Sljedite dani link za završetak postupka "
+"Poslali smo email u svrhu potvrde. Sljedite dani link za završetak postupka "
 "registracije. Molimo kontaktirajte nas ukoliko ga ne primite unutar "
 "sljedećih nekoliko minuta."
 
@@ -707,19 +707,19 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Ovaj dio web stranice zahtjeva da potvrdite da jeste tko tvrdite da jeste. "
-"Zbog toga je nužno da potvrdite da ste vi vlasnik dane e-mail adrese."
+"Zbog toga je nužno da potvrdite da ste vi vlasnik dane email adrese."
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
-"Poslali smo e-mail na vašu adresu u svrhu potvrde. Molimo kliknite na link "
-"unutar e-maila.\n"
+"Poslali smo email na vašu adresu u svrhu potvrde. Molimo kliknite na link "
+"unutar emaila.\n"
 "Molimo kontaktirajte nas ako ga ne primite unutar nekoliko sljedećih minuta."
 
 #: templates/account/verified_email_required.html:20
@@ -729,7 +729,7 @@ msgid ""
 "mail address</a>."
 msgstr ""
 "<strong>Napomena:</strong> još uvijek možete <a href=\\\"%(email_url)s\\"
-"\">izmijeniti vašu e-mail adresu</a>."
+"\">izmijeniti vašu email adresu</a>."
 
 #: templates/openid/login.html:9
 msgid "OpenID Sign In"
@@ -821,7 +821,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
-#~ "Potvrdili ste da je <a href=\\\"mailto:%(email)s\\\">%(email)s</a> e-mail "
+#~ "Potvrdili ste da je <a href=\\\"mailto:%(email)s\\\">%(email)s</a> email "
 #~ "adresa za korisnika %(user_display)s."

@@ -24,7 +24,7 @@ class EmailAddress(models.Model):
                              on_delete=models.CASCADE)
     email = models.EmailField(unique=app_settings.UNIQUE_EMAIL,
                               max_length=app_settings.EMAIL_MAX_LENGTH,
-                              verbose_name=_('e-mail address'))
+                              verbose_name=_('email address'))
     verified = models.BooleanField(verbose_name=_('verified'), default=False)
     primary = models.BooleanField(verbose_name=_('primary'), default=False)
 
@@ -83,7 +83,7 @@ class EmailAddress(models.Model):
 class EmailConfirmation(models.Model):
 
     email_address = models.ForeignKey(EmailAddress,
-                                      verbose_name=_('e-mail address'),
+                                      verbose_name=_('email address'),
                                       on_delete=models.CASCADE)
     created = models.DateTimeField(verbose_name=_('created'),
                                    default=timezone.now)

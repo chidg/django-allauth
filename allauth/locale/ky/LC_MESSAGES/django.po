@@ -26,7 +26,7 @@ msgid "Too many failed login attempts. Try again later."
 msgstr "Өтө көп жолу кирүү аракеттери жасалды. Кайрадан аракеттениңиз."
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
+msgid "A user is already registered with this email address."
 msgstr "Мындай эмейл менен катталган колдонуучу бар."
 
 #: account/adapter.py:293
@@ -55,7 +55,7 @@ msgid "This account is currently inactive."
 msgstr "Бул эсеп учурда активдүү эмес."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
+msgid "The email address and/or password you specified are not correct."
 msgstr "Сиз берген эмейл дарек жана/же купуя туура эмес."
 
 #: account/forms.py:84
@@ -68,12 +68,12 @@ msgstr "Сиз берген логин жана/же купуя туура эм�
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
+msgid "Email address"
 msgstr "Эмейл дарек"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
+msgid "Email"
 msgstr "Эмейл"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
@@ -82,7 +82,7 @@ msgid "Username"
 msgstr "Колдонуучу аты"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
+msgid "Username or email"
 msgstr "Колдонуучу аты же эмейл"
 
 #: account/forms.py:116
@@ -92,18 +92,18 @@ msgstr "Логин"
 
 #: account/forms.py:258
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
 msgstr "Эмейл (милдеттүү эмес)"
 
 #: account/forms.py:262
 #, fuzzy
 #| msgid "email confirmation"
-msgid "E-mail address confirmation"
+msgid "Email address confirmation"
 msgstr "эмейл ырастоо"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
+msgid "Email (optional)"
 msgstr "Эмейл (милдеттүү эмес)"
 
 #: account/forms.py:314
@@ -117,11 +117,11 @@ msgid "Password (again)"
 msgstr "Купуя (дагы бир жолу)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
+msgid "This email address is already associated with this account."
 msgstr "Бул эмейл дарек ушул эсеп менен буга чейин туташтырылган."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
+msgid "This email address is already associated with another account."
 msgstr "Бул эмейл дарек башка бир эсеп менен буга чейин туташтырылган."
 
 #: account/forms.py:422
@@ -141,7 +141,7 @@ msgid "Please type your current password."
 msgstr "Учурдагы купуяңызды жазыңыз."
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
+msgid "The email address is not assigned to any user account"
 msgstr "Эмейл дарек эч бир колдонуучу эсебине байланган эмес"
 
 #: account/forms.py:534
@@ -153,7 +153,7 @@ msgid "user"
 msgstr "колдонуучу"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
+msgid "email address"
 msgstr "эмейл дарек"
 
 #: account/models.py:28
@@ -195,7 +195,7 @@ msgstr "эмейл ырастоолор"
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
 "Бул эмейл менен башка эсеп катталган. Ошол эсеп аркылуу кирип, %s эсебиңизди "
@@ -206,7 +206,7 @@ msgid "Your account has no password set up."
 msgstr "Сиздин эсебиңизде купуя орнотулган эмес."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
+msgid "Your account has no verified email address."
 msgstr "Сиздин эсебиңизде дурусталган эмейл даректер жок."
 
 #: socialaccount/apps.py:7
@@ -344,11 +344,11 @@ msgid "Account"
 msgstr "Эсеп"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
+msgid "Email Addresses"
 msgstr "Эмейл даректер"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
+msgid "The following email addresses are associated with your account:"
 msgstr "Төмөнкү эмейл даректер сиздин эсебиңизге байланган:"
 
 #: templates/account/email.html:24
@@ -381,22 +381,22 @@ msgstr "Эскертүү:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
 "Сизде азыр бир дагы эмейл катталган эмес. Билдирүүлөрдү алуу, купуяны "
 "жаңыртуу ж.б. үчүн каттап коюңуз."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
+msgid "Add Email Address"
 msgstr "Эмейл дарек кошуу"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
+msgid "Add Email"
 msgstr "Эмейл кошуу"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
+msgid "Do you really want to remove the selected email address?"
 msgstr "Тандалган эмейл даректи алып салууну дурустайсызбы?"
 
 #: templates/account/email/email_confirmation_message.txt:1
@@ -404,8 +404,8 @@ msgstr "Тандалган эмейл даректи алып салууну д�
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
@@ -428,7 +428,7 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
+msgid "Please Confirm Your Email Address"
 msgstr "Эмейл дарегиңизди ырастаңыз"
 
 #: templates/account/email/password_reset_key_message.txt:1
@@ -436,7 +436,7 @@ msgstr "Эмейл дарегиңизди ырастаңыз"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -463,18 +463,18 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "Купуяны жаңыртуу эмейли"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm Email Address"
 msgstr "Эмейл даректи ырастаңыз"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "<a href=\"mailto:%(email)s\">%(email)s</a> деген эмейл дарек "
@@ -487,8 +487,8 @@ msgstr "Ырастоо"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "Бул эмейлди ырастоо шилтемесинин мөөнөтү өтүп кеткен же ал туура эмес. <a "
 "href=\"%(email_url)s\">эмейлди ырастоо сурамын кайрадан жөнөтүңүз</a>."
@@ -539,12 +539,12 @@ msgstr "Сиз чыгып жатканыңызды дурустайсызбы?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
 msgstr "Негизги эмейл даректи алып салуу мүмкүн эмес (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
+msgid "Confirmation email sent to %(email)s."
 msgstr "Ырастоо эмейли %(email)s дарегине жөнөтүлдү."
 
 #: templates/account/messages/email_confirmed.txt:2
@@ -554,7 +554,7 @@ msgstr "Сиз %(email)s дарегин ырастадыңыз."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
+msgid "Removed email address %(email)s."
 msgstr "%(email)s дарегин алып салдык."
 
 #: templates/account/messages/logged_in.txt:4
@@ -575,11 +575,11 @@ msgid "Password successfully set."
 msgstr "Купуя ийгиликтүү орнотулду."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
+msgid "Primary email address set."
 msgstr "Негизги эмейл орнотулду."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "Негизги эмейл дарегиңиз дурусталышы керек."
 
 #: templates/account/password_change.html:5
@@ -601,8 +601,8 @@ msgstr "Купуяны жаңыртуу"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
 "Купуяңызды унуттуңузбу? Эмейл дарегиңизди төмөндө жазсаңыз, биз сизге кат "
 "жөнөтүп, аны жаңыртканга жардам беребиз."
@@ -617,7 +617,7 @@ msgstr "Купуяны жаңыртууда суроолор пайда болс
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "Биз сизге кат жөнөттүк. Бир нече мүнөттүн ичинде келбей калса бизге "
@@ -688,12 +688,12 @@ msgstr "сиз %(user_display)s катары кирип турасыз."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
+msgid "Verify Your Email Address"
 msgstr "Эмейл дарегиңизди дурустап бериңиз"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
@@ -704,7 +704,7 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Сайттын бул бөлүгүнө өтүш үчүн сиз чын эле сиз айткан \n"
 "адам экендиңизди такташыбыз керек. Ал үчүн эмейл\n"
@@ -712,8 +712,8 @@ msgstr ""
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
 "Биз сизге кат жөнөттүк, дурустоо үчүн.\n"

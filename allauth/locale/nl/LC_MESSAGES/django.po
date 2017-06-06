@@ -28,8 +28,8 @@ msgid "Too many failed login attempts. Try again later."
 msgstr "Teveel foutieve inlog pogingen. Probeer het later nogmaals."
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
-msgstr "Er is al een gebruiker geregistreerd met dit e-mailadres."
+msgid "A user is already registered with this email address."
+msgstr "Er is al een gebruiker geregistreerd met dit emailadres."
 
 #: account/adapter.py:293
 #, python-brace-format
@@ -57,8 +57,8 @@ msgid "This account is currently inactive."
 msgstr "Dit account is niet actief"
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Je e-mailadres en wachtwoord komen niet overeen."
+msgid "The email address and/or password you specified are not correct."
+msgstr "Je emailadres en wachtwoord komen niet overeen."
 
 #: account/forms.py:84
 msgid "The username and/or password you specified are not correct."
@@ -70,13 +70,13 @@ msgstr "Je login en wachtwoord komen niet overeen."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
-msgstr "E-mailadres"
+msgid "Email address"
+msgstr "Emailadres"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
-msgstr "E-mail"
+msgid "Email"
+msgstr "Email"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
 #: account/forms.py:234
@@ -84,8 +84,8 @@ msgid "Username"
 msgstr "Gebruikersnaam"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
-msgstr "Gebruikersnaam of e-mail"
+msgid "Username or email"
+msgstr "Gebruikersnaam of email"
 
 #: account/forms.py:116
 msgctxt "field label"
@@ -94,33 +94,33 @@ msgstr "Login"
 
 #: account/forms.py:258
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
-msgstr "E-mail (optioneel)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
+msgstr "Email (optioneel)"
 
 #: account/forms.py:262
-msgid "E-mail address confirmation"
-msgstr "Bevestig e-mailadres"
+msgid "Email address confirmation"
+msgstr "Bevestig emailadres"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
-msgstr "E-mail (optioneel)"
+msgid "Email (optional)"
+msgstr "Email (optioneel)"
 
 #: account/forms.py:314
 msgid "You must type the same email each time."
-msgstr "Je moet hetzelfde e-mailadres twee keer intoetsen."
+msgstr "Je moet hetzelfde emailadres twee keer intoetsen."
 
 #: account/forms.py:337 account/forms.py:443
 msgid "Password (again)"
 msgstr "Wachtwoord (bevestigen)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
-msgstr "Dit e-mailadres is al geassocieerd met dit account."
+msgid "This email address is already associated with this account."
+msgstr "Dit emailadres is al geassocieerd met dit account."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
-msgstr "Dit e-mailadres is al geassocieerd met een ander account."
+msgid "This email address is already associated with another account."
+msgstr "Dit emailadres is al geassocieerd met een ander account."
 
 #: account/forms.py:422
 msgid "Current Password"
@@ -139,8 +139,8 @@ msgid "Please type your current password."
 msgstr "Geef je huidige wachtwoord op."
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Dit e-mailadres is niet bij ons bekend"
+msgid "The email address is not assigned to any user account"
+msgstr "Dit emailadres is niet bij ons bekend"
 
 #: account/forms.py:534
 msgid "The password reset token was invalid."
@@ -151,8 +151,8 @@ msgid "user"
 msgstr "gebruiker"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
-msgstr "e-mailadres"
+msgid "email address"
+msgstr "emailadres"
 
 #: account/models.py:28
 msgid "verified"
@@ -164,11 +164,11 @@ msgstr "Primair"
 
 #: account/models.py:34
 msgid "email address"
-msgstr "e-mailadres"
+msgstr "emailadres"
 
 #: account/models.py:35
 msgid "email addresses"
-msgstr "e-mailadressen"
+msgstr "emailadressen"
 
 #: account/models.py:88
 msgid "created"
@@ -184,19 +184,19 @@ msgstr "sleutel"
 
 #: account/models.py:96
 msgid "email confirmation"
-msgstr "e-mailadres bevestiging"
+msgstr "emailadres bevestiging"
 
 #: account/models.py:97
 msgid "email confirmations"
-msgstr "e-mailadres bevestigingen"
+msgstr "emailadres bevestigingen"
 
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
-"Er bestaat al een account met dit e-mailadres. Meld je eerst aan met dit "
+"Er bestaat al een account met dit emailadres. Meld je eerst aan met dit "
 "account, verbind daarna je %s account."
 
 #: socialaccount/adapter.py:131
@@ -204,8 +204,8 @@ msgid "Your account has no password set up."
 msgstr "Je account heeft geen wachtwoord ingesteld."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
-msgstr "Je account heeft geen geverifieerd e-mailadres."
+msgid "Your account has no verified email address."
+msgstr "Je account heeft geen geverifieerd emailadres."
 
 #: socialaccount/apps.py:7
 msgid "Social Accounts"
@@ -346,12 +346,12 @@ msgid "Account"
 msgstr "Account"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
-msgstr "E-mailadressen"
+msgid "Email Addresses"
+msgstr "Emailadressen"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
-msgstr "De volgende e-mailadressen zijn gekoppeld aan jouw account:"
+msgid "The following email addresses are associated with your account:"
+msgstr "De volgende emailadressen zijn gekoppeld aan jouw account:"
 
 #: templates/account/email.html:24
 msgid "Verified"
@@ -371,7 +371,7 @@ msgstr "Maak primair"
 
 #: templates/account/email.html:35
 msgid "Re-send Verification"
-msgstr "Stuur verificatie e-mail opnieuw"
+msgstr "Stuur verificatie email opnieuw"
 
 #: templates/account/email.html:36 templates/socialaccount/connections.html:35
 msgid "Remove"
@@ -383,39 +383,39 @@ msgstr "Waarschuwing:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
-"Het is raadzaam een e-mailadres toe te voegen zodat je notificaties kunt "
+"Het is raadzaam een emailadres toe te voegen zodat je notificaties kunt "
 "ontvangen, je wachtwoord opnieuw kunt instellen, enz."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
-msgstr "Voeg e-mailadres toe"
+msgid "Add Email Address"
+msgstr "Voeg emailadres toe"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
-msgstr "E-mail toevoegen"
+msgid "Add Email"
+msgstr "Email toevoegen"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
-msgstr "Wil je het geselecteerde e-mailadres echt verwijderen?"
+msgid "Do you really want to remove the selected email address?"
+msgstr "Wil je het geselecteerde emailadres echt verwijderen?"
 
 #: templates/account/email/email_confirmation_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
 msgstr ""
 "Hallo van %(site_name)s!,\n"
 "\n"
-"Je ontvangt deze e-mail omdat gebruiker %(user_display)s van\n"
-"%(site_domain)s dit als e-mailadres heeft opgegeven om te koppelen\n"
+"Je ontvangt deze email omdat gebruiker %(user_display)s van\n"
+"%(site_domain)s dit als emailadres heeft opgegeven om te koppelen\n"
 "aan zijn of haar account.\n"
 "\n"
 "Om te bevestigen dat dit correct is, bezoek: %(activate_url)s\n"
@@ -430,15 +430,15 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
-msgstr "Bevestig je e-mailadres"
+msgid "Please Confirm Your Email Address"
+msgstr "Bevestig je emailadres"
 
 #: templates/account/email/password_reset_key_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -466,21 +466,21 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "Nieuw wachtwoord"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
-msgstr "Bevestig e-mailadres"
+msgid "Confirm Email Address"
+msgstr "Bevestig emailadres"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
-"Bevestig dat <a href=\"mailto:%(email)s\">%(email)s</a> een e-mailadres is "
+"Bevestig dat <a href=\"mailto:%(email)s\">%(email)s</a> een emailadres is "
 "voor gebruiker %(user_display)s."
 
 #: templates/account/email_confirm.html:20
@@ -490,11 +490,11 @@ msgstr "Bevestigen"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
-"Deze e-mail verificatie link is verlopen of niet geldig. Dien een\n"
-"<a href=\"%(email_url)s\">nieuw e-mail verificatie verzoek</a> in."
+"Deze email verificatie link is verlopen of niet geldig. Dien een\n"
+"<a href=\"%(email_url)s\">nieuw email verificatie verzoek</a> in."
 
 #: templates/account/login.html:6 templates/account/login.html:10
 #: templates/account/login.html:43
@@ -541,23 +541,23 @@ msgstr "Weet je zeker dat je wilt afmelden?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr "You kunt je primaire e-mailadres (%(email)s) niet verwijderen."
+msgid "You cannot remove your primary email address (%(email)s)."
+msgstr "You kunt je primaire emailadres (%(email)s) niet verwijderen."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr "Bevestigings e-mail verzonden aan %(email)s."
+msgid "Confirmation email sent to %(email)s."
+msgstr "Bevestigings email verzonden aan %(email)s."
 
 #: templates/account/messages/email_confirmed.txt:2
 #, python-format
 msgid "You have confirmed %(email)s."
-msgstr "Je hebt het e-mailadres %(email)s bevestigd"
+msgstr "Je hebt het emailadres %(email)s bevestigd"
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
-msgstr "E-mailadres %(email)s verwijderd."
+msgid "Removed email address %(email)s."
+msgstr "Emailadres %(email)s verwijderd."
 
 #: templates/account/messages/logged_in.txt:4
 #, python-format
@@ -577,12 +577,12 @@ msgid "Password successfully set."
 msgstr "Je wachtwoord is gewijzigd."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
-msgstr "Primair e-mailadres ingesteld."
+msgid "Primary email address set."
+msgstr "Primair emailadres ingesteld."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
-msgstr "Je primaire e-mailadres moet geverifieerd zijn."
+msgid "Your primary email address must be verified."
+msgstr "Je primaire emailadres moet geverifieerd zijn."
 
 #: templates/account/password_change.html:5
 #: templates/account/password_change.html:8
@@ -603,10 +603,10 @@ msgstr "Nieuw wachtwoord"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
-"Wachtwoord vergeten? Vul je e-mailadres in en we sturen je een e-mail "
+"Wachtwoord vergeten? Vul je emailadres in en we sturen je een email "
 "waarmee je een nieuw wachtwoord kunt instellen."
 
 #: templates/account/password_reset.html:20
@@ -621,10 +621,10 @@ msgstr ""
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"We hebben je een e-mail verstuurd. Neem a.u.b. contact met ons op als je "
+"We hebben je een email verstuurd. Neem a.u.b. contact met ons op als je "
 "deze niet binnen enkele minuten ontvangen hebt."
 
 #: templates/account/password_reset_from_key.html:7
@@ -693,16 +693,16 @@ msgstr "je bent al ingelogd als %(user_display)s."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
-msgstr "Verifieer je e-mailadres"
+msgid "Verify Your Email Address"
+msgstr "Verifieer je emailadres"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"We hebben een e-mail verstuurd ter verificatie. Volg de link in deze mail om "
+"We hebben een email verstuurd ter verificatie. Volg de link in deze mail om "
 "je registratie af te ronden. Neem a.u.b. contact met ons op als je deze e-"
 "mail niet binnen enkele minuten ontvangt."
 
@@ -710,20 +710,20 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Voor dit gedeelte van de site is het nodig dat we je identiteit\n"
-"verifiëren. Via een verificatie e-mail kunnen we controleren dat je\n"
-"daadwerkelijk toegang hebt tot het opgegeven e-mailadres."
+"verifiëren. Via een verificatie email kunnen we controleren dat je\n"
+"daadwerkelijk toegang hebt tot het opgegeven emailadres."
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
-"Volg de link in de verificatie e-mail om de controle af te ronden. Neem a.u."
-"b. contact met ons op als je de e-mail niet binnen enkele minuten ontvangt."
+"Volg de link in de verificatie email om de controle af te ronden. Neem a.u."
+"b. contact met ons op als je de email niet binnen enkele minuten ontvangt."
 
 #: templates/account/verified_email_required.html:20
 #, python-format
@@ -731,7 +731,7 @@ msgid ""
 "<strong>Note:</strong> you can still <a href=\"%(email_url)s\">change your e-"
 "mail address</a>."
 msgstr ""
-"<strong>Merk op:</strong> je kunt altijd <a href=\"%(email_url)s\">je e-mail "
+"<strong>Merk op:</strong> je kunt altijd <a href=\"%(email_url)s\">je email "
 "adres wijzigen</a>."
 
 #: templates/openid/login.html:9
@@ -819,7 +819,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
 #~ "Je hebt bevestigd dat <a href=\"mailto:%(email)s\">%(email)s</a> een e-"
 #~ "mail adres is voor gebruiker %(user_display)s."
@@ -827,8 +827,8 @@ msgstr ""
 #~ msgid "Thanks for using our site!"
 #~ msgstr "Bedankt voor het gebruik van onze site!"
 
-#~ msgid "Confirmation e-mail sent to %(email)s"
-#~ msgstr "Bevestigings e-mail verzonden aan %(email)s"
+#~ msgid "Confirmation email sent to %(email)s"
+#~ msgstr "Bevestigings email verzonden aan %(email)s"
 
 #~ msgid "Delete Password"
 #~ msgstr "Wis wachtwoord"

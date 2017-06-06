@@ -13,7 +13,7 @@ please use these .
 What is provided is the following:
 
 - The protocol to be used for generating links (e.g. password
-  forgotten) for e-mails is configurable by means of the
+  forgotten) for emails is configurable by means of the
   ``ACCOUNT_DEFAULT_HTTP_PROTOCOL`` setting.
 
 - Automatically switching to HTTPS is built-in for OAuth providers
@@ -28,11 +28,11 @@ Custom User Models
 If you use a custom user model you need to specify what field
 represents the ``username``, if any. Here, ``username`` really refers to
 the field representing the nick name the user uses to login, and not
-some unique identifier (possibly including an e-mail address) as is
+some unique identifier (possibly including an email address) as is
 the case for Django's ``AbstractBaseUser.USERNAME_FIELD``.
 
 Meaning, if your custom user model does not have a ``username`` field
-(again, not to be mistaken with an e-mail address or user id), you
+(again, not to be mistaken with an email address or user id), you
 will need to set ``ACCOUNT_USER_MODEL_USERNAME_FIELD`` to ``None``. This
 will disable username related functionality in ``allauth``. Remember to
 also to set ``ACCOUNT_USERNAME_REQUIRED`` to ``False``.
@@ -119,14 +119,14 @@ methods:
 
 - ``stash_verified_email(self, request, email)``. If an invitation was
   accepted by following a link in a mail, then there is no need to
-  send e-mail verification mails after the signup is completed. Use
-  this method to record the fact that an e-mail address was verified.
+  send email verification mails after the signup is completed. Use
+  this method to record the fact that an email address was verified.
 
 
-Sending E-mail
+Sending Email
 --------------
 
-E-mails sent (e.g. in case of password forgotten, or e-mail
+Emails sent (e.g. in case of password forgotten, or email
 confirmation) can be altered by providing your own
 templates. Templates are named as follows::
 

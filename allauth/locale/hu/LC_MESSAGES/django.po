@@ -26,7 +26,7 @@ msgid "Too many failed login attempts. Try again later."
 msgstr ""
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
+msgid "A user is already registered with this email address."
 msgstr "Egy felhasználó már regisztrált ezzel az email címmel."
 
 #: account/adapter.py:293
@@ -55,7 +55,7 @@ msgid "This account is currently inactive."
 msgstr "A felhasználó jelenleg nem aktív."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
+msgid "The email address and/or password you specified are not correct."
 msgstr "A megadott email vagy a jelszó hibás."
 
 #: account/forms.py:84
@@ -68,12 +68,12 @@ msgstr "A megadott bejelentkezési azonosító vagy a jelszó hibás."
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
+msgid "Email address"
 msgstr "Email"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
+msgid "Email"
 msgstr "Email"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
@@ -82,7 +82,7 @@ msgid "Username"
 msgstr "Felhasználó azonosító"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
+msgid "Username or email"
 msgstr "Felhasználó azonosító vagy email"
 
 #: account/forms.py:116
@@ -92,18 +92,18 @@ msgstr "Bejelentkezés"
 
 #: account/forms.py:258
 #, fuzzy
-#| msgid "E-mail (optional)"
-msgid "E-mail (again)"
+#| msgid "Email (optional)"
+msgid "Email (again)"
 msgstr "Email (nem kötelező)"
 
 #: account/forms.py:262
 #, fuzzy
-#| msgid "E-mail address"
-msgid "E-mail address confirmation"
+#| msgid "Email address"
+msgid "Email address confirmation"
 msgstr "Email"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
+msgid "Email (optional)"
 msgstr "Email (nem kötelező)"
 
 #: account/forms.py:314
@@ -117,11 +117,11 @@ msgid "Password (again)"
 msgstr "Jelszó (ismét)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
+msgid "This email address is already associated with this account."
 msgstr "Ez az email cím már hozzá van rendelve ehhez a felhasználóhoz."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
+msgid "This email address is already associated with another account."
 msgstr "Ez az email cím már hozzá van rendelve egy másik felhasználóhoz."
 
 #: account/forms.py:422
@@ -141,7 +141,7 @@ msgid "Please type your current password."
 msgstr "Kérlek add meg az aktuális jelszavadat!"
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
+msgid "The email address is not assigned to any user account"
 msgstr "Az email cím nincs hozzárendelve egyetlen felhasználóhoz sem"
 
 #: account/forms.py:534
@@ -153,7 +153,7 @@ msgid "user"
 msgstr ""
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
+msgid "email address"
 msgstr ""
 
 #: account/models.py:28
@@ -195,7 +195,7 @@ msgstr ""
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
 "Ezzel az email címmel már létezik egy felhasználó . Először jelentkezz be, "
@@ -206,7 +206,7 @@ msgid "Your account has no password set up."
 msgstr "A felhasználódnak nincs beállított jelszava."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
+msgid "Your account has no verified email address."
 msgstr "A felhasználódnak nincs ellenőrzött email címe."
 
 #: socialaccount/apps.py:7
@@ -344,11 +344,11 @@ msgid "Account"
 msgstr "Felhasználó"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
+msgid "Email Addresses"
 msgstr "Email címek"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
+msgid "The following email addresses are associated with your account:"
 msgstr "A következő email címek tartoznak a felhasználódhoz:"
 
 #: templates/account/email.html:24
@@ -381,23 +381,23 @@ msgstr "Figyelem:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
 "Jelenleg nincs egyetlen email címed sem beállítva. Nagyon fontos lenne, "
 "hiszen csak így kaphatsz értesítéseket és így tudod a jelszavadat "
 "megváltoztatni."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
+msgid "Add Email Address"
 msgstr "Új email cím"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
+msgid "Add Email"
 msgstr "Új email"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
+msgid "Do you really want to remove the selected email address?"
 msgstr "Tényleg törölni akarod a kijelölt email címet?"
 
 #: templates/account/email/email_confirmation_message.txt:1
@@ -410,8 +410,8 @@ msgstr "Tényleg törölni akarod a kijelölt email címet?"
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
@@ -430,21 +430,21 @@ msgstr ""
 
 #: templates/account/email/email_confirmation_subject.txt:3
 #, fuzzy
-#| msgid "Confirm E-mail Address"
-msgid "Please Confirm Your E-mail Address"
+#| msgid "Confirm Email Address"
+msgid "Please Confirm Your Email Address"
 msgstr "Email cím megerősítése"
 
 #: templates/account/email/password_reset_key_message.txt:1
 #, fuzzy, python-format
 #| msgid ""
-#| "You're receiving this e-mail because you or someone else has requested a "
+#| "You're receiving this email because you or someone else has requested a "
 #| "password for your user account at %(site_domain)s.\n"
 #| "It can be safely ignored if you did not request a password reset. Click "
 #| "the link below to reset your password."
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -467,18 +467,18 @@ msgid ""
 msgstr ""
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
+msgid "Password Reset Email"
 msgstr "Jelszó csere email"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
+msgid "Confirm Email Address"
 msgstr "Email cím megerősítése"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "Kérlek erősítsd meg, hogy a(z) <a href=\"mailto:%(email)s\">%(email)s</a> "
@@ -491,8 +491,8 @@ msgstr "Megerősítés"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
 "Az email visszaigazolás címe már lejárt vagy érvénytelen. <a href="
 "\"\"%(email_url)s\">Itt kérhetsz újat</a>.\""
@@ -542,12 +542,12 @@ msgstr "Biztosan kijelentkezel?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
 msgstr "Az elsődleges email cím (%(email)s) nem törölhető."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
+msgid "Confirmation email sent to %(email)s."
 msgstr "Megerősítő levelet küldtünk a(z) %(email)s címre."
 
 #: templates/account/messages/email_confirmed.txt:2
@@ -557,7 +557,7 @@ msgstr "A(z) %(email)s cím visszaigazolása megtörtént."
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
+msgid "Removed email address %(email)s."
 msgstr "%(email)s email cím törölve."
 
 #: templates/account/messages/logged_in.txt:4
@@ -578,11 +578,11 @@ msgid "Password successfully set."
 msgstr "Jelszó sikeresen beállítva."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
+msgid "Primary email address set."
 msgstr "Elsődleges email cím beállítva."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
+msgid "Your primary email address must be verified."
 msgstr "Az elsődleges email címet ellenőriznunk kell."
 
 #: templates/account/password_change.html:5
@@ -604,8 +604,8 @@ msgstr "Új jelszó kérése"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
 "Elfelejtetted a jelszavadat? Add meg az email címedet és küldünk egy linket, "
 "ahol újat kérhetsz."
@@ -622,7 +622,7 @@ msgstr ""
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
 "Elküldtük az emailt. Kérlek vedd fel velünk a kapcsolatot, ha nem kapod meg "
@@ -694,12 +694,12 @@ msgstr "Már bejelentkeztél, mint %(user_display)s."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
+msgid "Verify Your Email Address"
 msgstr "Ellenőrizd az emailedet"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
@@ -711,7 +711,7 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
+"verify ownership of your email address. "
 msgstr ""
 "Az oldal ezen része megköveteli, hogy ellenőrizzük\n"
 "a felhasználó azonosságát. Ezért most arra kérünk, \n"
@@ -719,8 +719,8 @@ msgstr ""
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
 "Elküldtük az ellenőrző emailt.\n"
@@ -824,7 +824,7 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
 #~ "Sikeresen visszaigazolás. A(z) <a href=\"mailto:%(email)s\">%(email)s</a> "
 #~ "email a(z) %(user_display)s felhasználóhoz tartozik."

@@ -30,8 +30,8 @@ msgid "Too many failed login attempts. Try again later."
 msgstr "Занадто багато спроб входу в систему, спробуйте пізніше."
 
 #: account/adapter.py:56
-msgid "A user is already registered with this e-mail address."
-msgstr "Користувач з такою e-mail адресою уже зареєстрований."
+msgid "A user is already registered with this email address."
+msgstr "Користувач з такою email адресою уже зареєстрований."
 
 #: account/adapter.py:293
 #, python-brace-format
@@ -59,8 +59,8 @@ msgid "This account is currently inactive."
 msgstr "Даний акаунт є неактивним."
 
 #: account/forms.py:81
-msgid "The e-mail address and/or password you specified are not correct."
-msgstr "Введена e-mail адреса і/або пароль є некоректними."
+msgid "The email address and/or password you specified are not correct."
+msgstr "Введена email адреса і/або пароль є некоректними."
 
 #: account/forms.py:84
 msgid "The username and/or password you specified are not correct."
@@ -72,13 +72,13 @@ msgstr "Введений login і/або пароль є некоректним�
 
 #: account/forms.py:96 account/forms.py:238 account/forms.py:392
 #: account/forms.py:461
-msgid "E-mail address"
-msgstr "E-mail адреса"
+msgid "Email address"
+msgstr "Email адреса"
 
 #: account/forms.py:98 account/forms.py:269 account/forms.py:387
 #: account/forms.py:456
-msgid "E-mail"
-msgstr "E-mail"
+msgid "Email"
+msgstr "Email"
 
 #: account/forms.py:103 account/forms.py:106 account/forms.py:230
 #: account/forms.py:234
@@ -86,8 +86,8 @@ msgid "Username"
 msgstr "Ім'я користувача"
 
 #: account/forms.py:113
-msgid "Username or e-mail"
-msgstr "Ім'я користувача або e-mail"
+msgid "Username or email"
+msgstr "Ім'я користувача або email"
 
 #: account/forms.py:116
 msgctxt "field label"
@@ -95,33 +95,33 @@ msgid "Login"
 msgstr "Увійти"
 
 #: account/forms.py:258
-msgid "E-mail (again)"
-msgstr "E-mail (ще раз)"
+msgid "Email (again)"
+msgstr "Email (ще раз)"
 
 #: account/forms.py:262
-msgid "E-mail address confirmation"
-msgstr "e-mail адреса підтвердження"
+msgid "Email address confirmation"
+msgstr "email адреса підтвердження"
 
 #: account/forms.py:272
-msgid "E-mail (optional)"
-msgstr "E-mail (необов'язковий)"
+msgid "Email (optional)"
+msgstr "Email (необов'язковий)"
 
 #: account/forms.py:314
 #| msgid "You must type the same password each time."
 msgid "You must type the same email each time."
-msgstr "Ви повинні вводити однакову e-mail адресу кожного разу."
+msgstr "Ви повинні вводити однакову email адресу кожного разу."
 
 #: account/forms.py:337 account/forms.py:443
 msgid "Password (again)"
 msgstr "Пароль (ще раз)"
 
 #: account/forms.py:398
-msgid "This e-mail address is already associated with this account."
-msgstr "Вказаний e-mail уже прикріплений до цього акаунту."
+msgid "This email address is already associated with this account."
+msgstr "Вказаний email уже прикріплений до цього акаунту."
 
 #: account/forms.py:400
-msgid "This e-mail address is already associated with another account."
-msgstr "Вказаний e-mail уже прикріплений до іншого користувача."
+msgid "This email address is already associated with another account."
+msgstr "Вказаний email уже прикріплений до іншого користувача."
 
 #: account/forms.py:422
 msgid "Current Password"
@@ -140,8 +140,8 @@ msgid "Please type your current password."
 msgstr "Будь ласка, вкажіть Ваш поточний пароль."
 
 #: account/forms.py:470
-msgid "The e-mail address is not assigned to any user account"
-msgstr "Немає користувача з такою e-mail адресою."
+msgid "The email address is not assigned to any user account"
+msgstr "Немає користувача з такою email адресою."
 
 #: account/forms.py:534
 msgid "The password reset token was invalid."
@@ -152,8 +152,8 @@ msgid "user"
 msgstr "користувач"
 
 #: account/models.py:27 account/models.py:86
-msgid "e-mail address"
-msgstr "e-mail адреса"
+msgid "email address"
+msgstr "email адреса"
 
 #: account/models.py:28
 msgid "verified"
@@ -165,11 +165,11 @@ msgstr "основний"
 
 #: account/models.py:34
 msgid "email address"
-msgstr "e-mail адреса"
+msgstr "email адреса"
 
 #: account/models.py:35
 msgid "email addresses"
-msgstr "e-mail адреса"
+msgstr "email адреса"
 
 #: account/models.py:88
 msgid "created"
@@ -185,19 +185,19 @@ msgstr "ключ"
 
 #: account/models.py:96
 msgid "email confirmation"
-msgstr "e-mail підтвердження"
+msgstr "email підтвердження"
 
 #: account/models.py:97
 msgid "email confirmations"
-msgstr "e-mail підтвердження"
+msgstr "email підтвердження"
 
 #: socialaccount/adapter.py:26
 #, python-format
 msgid ""
-"An account already exists with this e-mail address. Please sign in to that "
+"An account already exists with this email address. Please sign in to that "
 "account first, then connect your %s account."
 msgstr ""
-"Акаунт з такою e-mail адресою уже існує. Будь ласка, спершу увійдіть у цей "
+"Акаунт з такою email адресою уже існує. Будь ласка, спершу увійдіть у цей "
 "акаунт, потім приєднайте Ваш %s акаунт."
 
 #: socialaccount/adapter.py:131
@@ -205,8 +205,8 @@ msgid "Your account has no password set up."
 msgstr "Ваш акаунт не має встановленого паролю."
 
 #: socialaccount/adapter.py:138
-msgid "Your account has no verified e-mail address."
-msgstr "Немає підтвердження по e-mail для Вашого акаунту."
+msgid "Your account has no verified email address."
+msgstr "Немає підтвердження по email для Вашого акаунту."
 
 #: socialaccount/apps.py:7
 msgid "Social Accounts"
@@ -344,12 +344,12 @@ msgid "Account"
 msgstr "Акаунт"
 
 #: templates/account/email.html:8
-msgid "E-mail Addresses"
-msgstr "E-mail адреса"
+msgid "Email Addresses"
+msgstr "Email адреса"
 
 #: templates/account/email.html:10
-msgid "The following e-mail addresses are associated with your account:"
-msgstr "Вказаний e-mail уже прикріплений до цього акаунту"
+msgid "The following email addresses are associated with your account:"
+msgstr "Вказаний email уже прикріплений до цього акаунту"
 
 #: templates/account/email.html:24
 msgid "Verified"
@@ -381,31 +381,31 @@ msgstr "Попередження:"
 
 #: templates/account/email.html:43
 msgid ""
-"You currently do not have any e-mail address set up. You should really add "
-"an e-mail address so you can receive notifications, reset your password, etc."
+"You currently do not have any email address set up. You should really add "
+"an email address so you can receive notifications, reset your password, etc."
 msgstr ""
-"На даний момент у Вас немає збереженої e-mail адреси. Рекомендуємо додати e-"
+"На даний момент у Вас немає збереженої email адреси. Рекомендуємо додати e-"
 "mail адресу, для того, щоб отримувати сповіщення, оновлювати паролі та інше."
 
 #: templates/account/email.html:48
-msgid "Add E-mail Address"
-msgstr "Додати e-mail адресу"
+msgid "Add Email Address"
+msgstr "Додати email адресу"
 
 #: templates/account/email.html:53
-msgid "Add E-mail"
-msgstr "Додати e-mail"
+msgid "Add Email"
+msgstr "Додати email"
 
 #: templates/account/email.html:62
-msgid "Do you really want to remove the selected e-mail address?"
-msgstr "Ви дійсно бажаєте видалити дану e-mail адресу?"
+msgid "Do you really want to remove the selected email address?"
+msgstr "Ви дійсно бажаєте видалити дану email адресу?"
 
 #: templates/account/email/email_confirmation_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because user %(user_display)s at "
-"%(site_domain)s has given yours as an e-mail address to connect their "
+"You're receiving this email because user %(user_display)s at "
+"%(site_domain)s has given yours as an email address to connect their "
 "account.\n"
 "\n"
 "To confirm this is correct, go to %(activate_url)s\n"
@@ -413,7 +413,7 @@ msgstr ""
 "Вітання від %(site_name)s!\n"
 "\n"
 "Ви отримали дане повідомлення тому, що користувач %(user_display)s на "
-"%(site_domain)s зареєстрував дану e-mail адресу.\n"
+"%(site_domain)s зареєстрував дану email адресу.\n"
 "\n"
 "Для підтвердження, що все правильно, будь ласка, перейдіть за "
 "%(activate_url)s\n"
@@ -428,15 +428,15 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/email_confirmation_subject.txt:3
-msgid "Please Confirm Your E-mail Address"
-msgstr "Будь ласка, підтвердіть Вашу e-mail адресу"
+msgid "Please Confirm Your Email Address"
+msgstr "Будь ласка, підтвердіть Вашу email адресу"
 
 #: templates/account/email/password_reset_key_message.txt:1
 #, python-format
 msgid ""
 "Hello from %(site_name)s!\n"
 "\n"
-"You're receiving this e-mail because you or someone else has requested a "
+"You're receiving this email because you or someone else has requested a "
 "password for your user account at %(site_domain)s.\n"
 "It can be safely ignored if you did not request a password reset. Click the "
 "link below to reset your password."
@@ -463,18 +463,18 @@ msgstr ""
 "%(site_domain)s"
 
 #: templates/account/email/password_reset_key_subject.txt:3
-msgid "Password Reset E-mail"
-msgstr "E-mail для відновлення паролю"
+msgid "Password Reset Email"
+msgstr "Email для відновлення паролю"
 
 #: templates/account/email_confirm.html:6
 #: templates/account/email_confirm.html:10
-msgid "Confirm E-mail Address"
-msgstr "Підтвердити e-mail адресу"
+msgid "Confirm Email Address"
+msgstr "Підтвердити email адресу"
 
 #: templates/account/email_confirm.html:16
 #, python-format
 msgid ""
-"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an email "
 "address for user %(user_display)s."
 msgstr ""
 "Будь ласка, підтвердіть, що <a href=\"mailto:%(email)s\">%(email)s</a> це e-"
@@ -487,10 +487,10 @@ msgstr "Підтвердити"
 #: templates/account/email_confirm.html:27
 #, python-format
 msgid ""
-"This e-mail confirmation link expired or is invalid. Please <a href="
-"\"%(email_url)s\">issue a new e-mail confirmation request</a>."
+"This email confirmation link expired or is invalid. Please <a href="
+"\"%(email_url)s\">issue a new email confirmation request</a>."
 msgstr ""
-"Дане посилання для підтвердження e-mail неактивне або неправильне. Будь "
+"Дане посилання для підтвердження email неактивне або неправильне. Будь "
 "ласка, <a href=\"%(email_url)s\"> зробіть новий запит для підтвердження e-"
 "mail адреси</a>."
 
@@ -540,23 +540,23 @@ msgstr "Ви впевнені, що бажаєте вийти?"
 
 #: templates/account/messages/cannot_delete_primary_email.txt:2
 #, python-format
-msgid "You cannot remove your primary e-mail address (%(email)s)."
-msgstr "Ви можете видалити Вашу основну e-mail адресу (%(email)s)."
+msgid "You cannot remove your primary email address (%(email)s)."
+msgstr "Ви можете видалити Вашу основну email адресу (%(email)s)."
 
 #: templates/account/messages/email_confirmation_sent.txt:2
 #, python-format
-msgid "Confirmation e-mail sent to %(email)s."
-msgstr "E-mail підтвердження надіслано на %(email)s."
+msgid "Confirmation email sent to %(email)s."
+msgstr "Email підтвердження надіслано на %(email)s."
 
 #: templates/account/messages/email_confirmed.txt:2
 #, python-format
 msgid "You have confirmed %(email)s."
-msgstr "E-mail %(email)s підтверджено. "
+msgstr "Email %(email)s підтверджено. "
 
 #: templates/account/messages/email_deleted.txt:2
 #, python-format
-msgid "Removed e-mail address %(email)s."
-msgstr "E-mail %(email)s видалено."
+msgid "Removed email address %(email)s."
+msgstr "Email %(email)s видалено."
 
 #: templates/account/messages/logged_in.txt:4
 #, python-format
@@ -576,12 +576,12 @@ msgid "Password successfully set."
 msgstr "Пароль успішно введено."
 
 #: templates/account/messages/primary_email_set.txt:2
-msgid "Primary e-mail address set."
-msgstr "Основну e-mail адресу введено."
+msgid "Primary email address set."
+msgstr "Основну email адресу введено."
 
 #: templates/account/messages/unverified_primary_email.txt:2
-msgid "Your primary e-mail address must be verified."
-msgstr "Ваша основна e-mail адреса повинна бути підтверджена."
+msgid "Your primary email address must be verified."
+msgstr "Ваша основна email адреса повинна бути підтверджена."
 
 #: templates/account/password_change.html:5
 #: templates/account/password_change.html:8
@@ -602,10 +602,10 @@ msgstr "Відновити пароль"
 
 #: templates/account/password_reset.html:15
 msgid ""
-"Forgotten your password? Enter your e-mail address below, and we'll send you "
-"an e-mail allowing you to reset it."
+"Forgotten your password? Enter your email address below, and we'll send you "
+"an email allowing you to reset it."
 msgstr ""
-"Забули пароль? Введіть Вашу e-mail адресу у поле і ми надішлемо Вам e-mail, "
+"Забули пароль? Введіть Вашу email адресу у поле і ми надішлемо Вам email, "
 "що дозволить відновити пароль."
 
 #: templates/account/password_reset.html:20
@@ -620,10 +620,10 @@ msgstr ""
 
 #: templates/account/password_reset_done.html:15
 msgid ""
-"We have sent you an e-mail. Please contact us if you do not receive it "
+"We have sent you an email. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Ми надіслали Вам e-mail повідомлення. Будь ласка, зв'яжіться з нами, якщо Ви "
+"Ми надіслали Вам email повідомлення. Будь ласка, зв'яжіться з нами, якщо Ви "
 "не отримаєте повідомлення протягом декількох хвилин."
 
 #: templates/account/password_reset_from_key.html:7
@@ -693,16 +693,16 @@ msgstr "Ви уже увійшли як %(user_display)s."
 #: templates/account/verification_sent.html:8
 #: templates/account/verified_email_required.html:5
 #: templates/account/verified_email_required.html:8
-msgid "Verify Your E-mail Address"
-msgstr "Підтвердіть Вашу e-mail адресу"
+msgid "Verify Your Email Address"
+msgstr "Підтвердіть Вашу email адресу"
 
 #: templates/account/verification_sent.html:10
 msgid ""
-"We have sent an e-mail to you for verification. Follow the link provided to "
+"We have sent an email to you for verification. Follow the link provided to "
 "finalize the signup process. Please contact us if you do not receive it "
 "within a few minutes."
 msgstr ""
-"Ми надіслали Вам e-mail для підтвердження. Перейдіть за посиланням для "
+"Ми надіслали Вам email для підтвердження. Перейдіть за посиланням для "
 "звершення процесу реєстрації. Будь ласка, зв'яжіться з нами, якщо Ви не "
 "отримаєте повідомлення впродовж декількох хвилин."
 
@@ -710,17 +710,17 @@ msgstr ""
 msgid ""
 "This part of the site requires us to verify that\n"
 "you are who you claim to be. For this purpose, we require that you\n"
-"verify ownership of your e-mail address. "
-msgstr "Дана частина сайту вимає підтвердження e-mail адреси."
+"verify ownership of your email address. "
+msgstr "Дана частина сайту вимає підтвердження email адреси."
 
 #: templates/account/verified_email_required.html:16
 msgid ""
-"We have sent an e-mail to you for\n"
-"verification. Please click on the link inside this e-mail. Please\n"
+"We have sent an email to you for\n"
+"verification. Please click on the link inside this email. Please\n"
 "contact us if you do not receive it within a few minutes."
 msgstr ""
-"Ми надіслали Вам e-mail для підтвердження.\n"
-"Будь ласка, перейдіть за посилання вказаним у e-mail повідомленні. Будь "
+"Ми надіслали Вам email для підтвердження.\n"
+"Будь ласка, перейдіть за посилання вказаним у email повідомленні. Будь "
 "ласка,\n"
 "зв'яжіться з нами, якщо Ви не отримаєте повідомлення впродовж декількох "
 "хвилин."
@@ -732,7 +732,7 @@ msgid ""
 "mail address</a>."
 msgstr ""
 "<strong>Зауважте:</strong> Ви все ще можете <a href=\"%(email_url)s"
-"\">змінити Вашу e-mail адресу</a>."
+"\">змінити Вашу email адресу</a>."
 
 #: templates/openid/login.html:9
 msgid "OpenID Sign In"
@@ -824,9 +824,9 @@ msgstr ""
 
 #~ msgid ""
 #~ "You have confirmed that <a href=\"mailto:%(email)s\">%(email)s</a> is an "
-#~ "e-mail address for user %(user_display)s."
+#~ "email address for user %(user_display)s."
 #~ msgstr ""
-#~ "Ви підтвердили, що <a href=\"mailto:%(email)s\">%(email)s</a> це e-mail "
+#~ "Ви підтвердили, що <a href=\"mailto:%(email)s\">%(email)s</a> це email "
 #~ "адреса для користувача %(user_display)s."
 
 #~ msgid "Thanks for using our site!"

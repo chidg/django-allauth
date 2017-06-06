@@ -24,11 +24,11 @@ Supported Flows
 
 - Optional instant-signup for social accounts -- no questions asked
 
-- E-mail address management (multiple e-mail addresses, setting a primary)
+- Email address management (multiple email addresses, setting a primary)
 
 - Password forgotten flow
 
-- E-mail address verification flow
+- Email address verification flow
 
 Supported Providers
 -------------------
@@ -161,8 +161,8 @@ Features
 --------
 
 - Supports multiple authentication schemes (e.g. login by user name,
-  or by e-mail), as well as multiple strategies for account
-  verification (ranging from none to e-mail verification).
+  or by email), as well as multiple strategies for account
+  verification (ranging from none to email verification).
 
 - All access tokens are consistently stored so that you can publish
   wall updates etc.

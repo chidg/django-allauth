@@ -269,10 +269,6 @@ App registration (get your key and secret here)
 Development callback URL
     http://localhost:8000/accounts/dropbox/login/callback/
 
-Note that Dropbox has deprecated version 1 of their API as of 28 June 2016. The original OAuth1 `dropbox` provider has been updated to OAuth2 and the newer URL endpoints for OAuth2 authentication and authorization.
-
-The `dropbox_oauth2` provider is deprecated and will be removed after September 28, 2017.
-
 Dwolla
 ------------
 
@@ -712,6 +708,9 @@ Optionally, you can specify the scope to use as follows:
 By default, ``profile`` scope is required, and optionally ``email`` scope
 depending on whether or not ``SOCIALACCOUNT_QUERY_EMAIL`` is enabled.
 
+You must set ``AUTH_PARAMS['access_type']`` to ``offline`` in order to
+receive a refresh token on first login and on reauthentication requests.
+
 
 Instagram
 ---------
@@ -861,6 +860,27 @@ and then run::
 which should allow you to test locally via https://127.0.0.1:8000. Some
 browsers may require enabling this on localhost and not support by default and
 ask for permission.
+
+
+Microsoft Graph
+-----------------
+
+Microsoft Graph API is the gateway to connect to mail, calendar, contacts,
+documents, directory, devices and more.
+
+Apps can be registered (for consumer key and secret) here
+    https://apps.dev.microsoft.com/
+
+By default, `common` (`organizations` and `consumers`) tenancy is configured
+for the login. To restrict it, change the `tenant` setting as shown below.
+
+.. code-block:: python
+
+    SOCIALACCOUNT_PROVIDERS = {
+        'microsoft': {
+            'tenant': 'organizations',
+        }
+    }
 
 
 Naver
@@ -1104,9 +1124,9 @@ Salesforce OAuth2 documentation
 To Use:
 
 - Include allauth.socialaccount.providers.salesforce in INSTALLED_APPS
-- In a new Salesforce Developer Org, create a Connected App 
+- In a new Salesforce Developer Org, create a Connected App
   with OAuth (minimum scope id, openid), and a callback URL
-- Create a Social application in Django admin, with client id, 
+- Create a Social application in Django admin, with client id,
   client key, and login_url (in "key" field)
 
 
@@ -1207,8 +1227,20 @@ Server Fault). This can be controlled by means of the ``SITE`` setting:
 Stripe
 ------
 
-You can register your OAuth2 app via the admin interface
+You register your OAUth2 app via the Connect->Settings page of the Stripe
+dashboard:
+	https://dashboard.stripe.com/account/applications/settings
+
+This page will provide you with both a Development and Production `client_id`.
+
+You can also register your OAuth2 app callback on the Settings page in the
+"Website URL" box, e.g.:
     http://example.com/accounts/stripe/login/callback/
+
+However, the OAuth2 secret key is not on this page. The secret key is the same
+secret key that you use with the Stripe API generally. This can be found on the
+Stripe dashboard API page:
+	https://dashboard.stripe.com/account/apikeys
 
 See more in documentation
     https://stripe.com/docs/connect/standalone-accounts
@@ -1301,6 +1333,18 @@ The configuration values come from your API dashboard on Untappd:
 * Sites: choose your site
 
 
+Telegram
+--------
+
+.. code-block:: python
+
+    SOCIALACCOUNT_PROVIDERS = {
+        'telegram': {
+            'TOKEN': 'insert-token-received-from-botfather'
+        }
+    }
+
+
 Vimeo
 -----
 
@@ -1362,13 +1406,15 @@ will support open platform by default, which value is
 ``https://open.weixin.qq.com/connect/qrconnect``.
 
 You can optionally specify additional scope to use. If no ``SCOPE`` value
-is set, will use ``snsapi_login`` by default.
+is set, will use ``snsapi_login`` by default(for Open Platform Account, need
+registration). Other ``SCOPE`` options are: snsapi_base, snsapi_userinfo.
 
 .. code-block:: python
 
     SOCIALACCOUNT_PROVIDERS = {
         'weixin': {
             'AUTHORIZE_URL': 'https://open.weixin.qq.com/connect/oauth2/authorize',  # for media platform
+            'SCOPE': ['snsapi_base'],
         }
     }
 
@@ -1381,3 +1427,10 @@ App registration (get your key and secret here)
 
 Development callback URL
     http://localhost:8000
+
+
+Yahoo
+------
+
+Register your OAuth2 app below and enter the resultant client id and secret into admin
+    https://developer.yahoo.com/apps/create/

@@ -9,12 +9,13 @@ from django.contrib.sessions.middleware import SessionMiddleware
 from django.contrib.sites.models import Site
 from django.test.client import RequestFactory
 from django.test.utils import override_settings
+from django.urls import reverse
 
 from . import providers
 from ..account import app_settings as account_settings
 from ..account.models import EmailAddress
 from ..account.utils import user_email, user_username
-from ..compat import parse_qs, reverse, urlparse
+from ..compat import parse_qs, urlparse
 from ..tests import MockedResponse, TestCase, mocked_response
 from ..utils import get_user_model
 from .helpers import complete_social_login
@@ -164,10 +165,9 @@ class OAuth2TestsMixin(object):
 
     def test_account_tokens(self, multiple_login=False):
         email = "user@example.com"
-        user = get_user_model().objects.create(
-            username='user',
-            is_active=True,
-            email=email)
+        user = get_user_model()(is_active=True)
+        user_email(user, email)
+        user_username(user, 'user')
         user.set_password('test')
         user.save()
         EmailAddress.objects.create(user=user,

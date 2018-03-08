@@ -30,7 +30,7 @@ TEMPLATES = [
     },
 ]
 
-MIDDLEWARE = MIDDLEWARE_CLASSES = (
+MIDDLEWARE = (
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
@@ -55,6 +55,7 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.asana',
     'allauth.socialaccount.providers.auth0',
     'allauth.socialaccount.providers.authentiq',
+    'allauth.socialaccount.providers.azure',
     'allauth.socialaccount.providers.baidu',
     'allauth.socialaccount.providers.basecamp',
     'allauth.socialaccount.providers.battlenet',
@@ -71,7 +72,6 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.doximity',
     'allauth.socialaccount.providers.draugiem',
     'allauth.socialaccount.providers.dropbox',
-    'allauth.socialaccount.providers.dropbox_oauth2',
     'allauth.socialaccount.providers.dwolla',
     'allauth.socialaccount.providers.edmodo',
     'allauth.socialaccount.providers.eveonline',
@@ -95,6 +95,7 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.mailchimp',
     'allauth.socialaccount.providers.mailru',
     'allauth.socialaccount.providers.meetup',
+    'allauth.socialaccount.providers.microsoft',
     'allauth.socialaccount.providers.naver',
     'allauth.socialaccount.providers.odnoklassniki',
     'allauth.socialaccount.providers.openid',
@@ -112,6 +113,7 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.spotify',
     'allauth.socialaccount.providers.stackexchange',
     'allauth.socialaccount.providers.stripe',
+    'allauth.socialaccount.providers.telegram',
     'allauth.socialaccount.providers.trello',
     'allauth.socialaccount.providers.tumblr',
     'allauth.socialaccount.providers.twentythreeandme',
@@ -123,7 +125,8 @@ INSTALLED_APPS = (
     'allauth.socialaccount.providers.weibo',
     'allauth.socialaccount.providers.weixin',
     'allauth.socialaccount.providers.windowslive',
-    'allauth.socialaccount.providers.xing'
+    'allauth.socialaccount.providers.xing',
+    'allauth.socialaccount.providers.yahoo',
 )
 
 AUTHENTICATION_BACKENDS = (

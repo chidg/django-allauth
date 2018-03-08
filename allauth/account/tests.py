@@ -4,7 +4,6 @@ import json
 import uuid
 from datetime import timedelta
 
-import django
 from django import forms
 from django.conf import settings
 from django.contrib.auth.models import AbstractUser, AnonymousUser
@@ -14,6 +13,7 @@ from django.core.exceptions import ValidationError
 from django.db import models
 from django.test.client import Client, RequestFactory
 from django.test.utils import override_settings
+from django.urls import reverse
 from django.utils.timezone import now
 
 from allauth.account.forms import BaseSignupForm, SignupForm
@@ -26,7 +26,6 @@ from allauth.tests import Mock, TestCase, patch
 from allauth.utils import get_user_model, get_username_max_length
 
 from . import app_settings
-from ..compat import is_authenticated, reverse
 from .adapter import get_adapter
 from .auth_backends import AuthenticationBackend
 from .signals import user_logged_out
@@ -135,7 +134,7 @@ class AccountTests(TestCase):
 
     @override_settings(
         ACCOUNT_USERNAME_REQUIRED=True,
-        ACCOUNT_SIGNUP_PASSOWRD_ENTER_TWICE=True)
+        ACCOUNT_SIGNUP_PASSWORD_ENTER_TWICE=True)
     def test_signup_password_twice_form_error(self):
         resp = self.client.post(
             reverse('account_signup'),
@@ -185,7 +184,7 @@ class AccountTests(TestCase):
     def _create_user_and_login(self, usable_password=True):
         password = 'doe' if usable_password else False
         user = self._create_user(password=password)
-        self.client_force_login(user)
+        self.client.force_login(user)
         return user
 
     def test_redirect_when_authenticated(self):
@@ -379,6 +378,26 @@ class AccountTests(TestCase):
         data = json.loads(response.content.decode('utf8'))
         assert 'invalid' in data['form']['errors'][0]
 
+    def test_password_reset_flow_with_email_changed(self):
+        """
+        Test that the password reset token is invalidated if
+        the user email address was changed.
+        """
+        user = self._request_new_password()
+        body = mail.outbox[0].body
+        self.assertGreater(body.find('https://'), 0)
+        EmailAddress.objects.create(
+            user=user,
+            email='other@email.org')
+        # Extract URL for `password_reset_from_key` view
+        url = body[body.find('/password/reset/'):].split()[0]
+        resp = self.client.get(url)
+        self.assertTemplateUsed(
+            resp,
+            'account/password_reset_from_key.%s' %
+            app_settings.TEMPLATE_EXTENSION)
+        self.assertTrue('token_fail' in resp.context_data)
+
     @override_settings(ACCOUNT_LOGIN_ON_PASSWORD_RESET=True)
     def test_password_reset_ACCOUNT_LOGIN_ON_PASSWORD_RESET(self):
         user = self._request_new_password()
@@ -391,7 +410,7 @@ class AccountTests(TestCase):
             resp.url,
             {'password1': 'newpass123',
              'password2': 'newpass123'})
-        self.assertTrue(is_authenticated(user))
+        self.assertTrue(user.is_authenticated)
         # EmailVerificationMethod.MANDATORY sends us to the confirm-email page
         self.assertRedirects(resp, '/confirm-email/')
 
@@ -686,8 +705,6 @@ class AccountTests(TestCase):
         }
     }])
     def test_django_password_validation(self):
-        if django.VERSION < (1, 9, ):
-            return
         resp = self.client.post(
             reverse('account_signup'),
             {'username': 'johndoe',
@@ -1016,11 +1033,13 @@ class AuthenticationBackendTests(TestCase):
         backend = AuthenticationBackend()
         self.assertEqual(
             backend.authenticate(
+                request=None,
                 username=user.username,
                 password=user.username).pk,
             user.pk)
         self.assertEqual(
             backend.authenticate(
+                request=None,
                 username=user.email,
                 password=user.username),
             None)
@@ -1032,11 +1051,13 @@ class AuthenticationBackendTests(TestCase):
         backend = AuthenticationBackend()
         self.assertEqual(
             backend.authenticate(
+                request=None,
                 username=user.email,
                 password=user.username).pk,
             user.pk)
         self.assertEqual(
             backend.authenticate(
+                request=None,
                 username=user.username,
                 password=user.username),
             None)
@@ -1048,11 +1069,13 @@ class AuthenticationBackendTests(TestCase):
         backend = AuthenticationBackend()
         self.assertEqual(
             backend.authenticate(
+                request=None,
                 username=user.email,
                 password=user.username).pk,
             user.pk)
         self.assertEqual(
             backend.authenticate(
+                request=None,
                 username=user.username,
                 password=user.username).pk,
             user.pk)
